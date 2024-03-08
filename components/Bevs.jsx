@@ -15,7 +15,7 @@ const Bevs = ({bevs}) => {
     <div>
       <div className=" h-[450px] mt-10 overflow-hidden relative group transition">
         <div className="w-full h-full flex justify-center items-center">
-        <div className="w-[360px] mx-auto flex justify-center items-center">
+        <div className="w-[360px] flex justify-center items-center">
         <Image 
          className="group-hover:scale-95 transition duration-500"
          src={urlFor(bevs.images[0]).url()} 
@@ -24,7 +24,10 @@ const Bevs = ({bevs}) => {
          alt=""
          />
         </div>
+
          </div>
+
+
          {/* btn group */}
          <div className="absolute top-0 left-0 -right-11 bottom-0 flex 
          group-hover:right-2
@@ -49,6 +52,16 @@ const Bevs = ({bevs}) => {
       <h5 className="text-center text-black mb-[1px] text-xl font-normal">{bevs.name}</h5>
       <div className="text-center text-lg font-normal  text-accent gap-3
       ">£{bevs.price}</div>
+      <div className="text-center mt-6 md:hidden l">
+      <AddToCartBtn 
+          price_id={bevs.price_id}
+          name={bevs.name}
+          currency='GBP'
+          description={bevs.description}
+          images={bevs.images}
+          price={bevs.price}
+          />
+      </div>
     </div>
   )
 } 

@@ -5,13 +5,11 @@ const Hero = () => {
   return (
     <section className='overflow-hidden pb-5'>
      <div>
-      <div className='h-[620px] md:h-[650px] lg:h-[900px] xl:h-[920px] '>
-        <video src={'./videoBg.mp4'} 
+  <video src={'./videoBg.mp4'} 
         autoPlay muted loop
         className='object-cover w-full h-[620px] md:h-[650px] 
         lg:h-[900px] xl:h-[920px]'/>
-      </div>
-      </div>   
+      </div> 
     </section>
   )
 }
