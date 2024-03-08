@@ -1,0 +1,94 @@
+import Image from 'next/image'
+import React from 'react'
+
+const Brands = () => {
+  return (
+    <section className='hidden lg:inline-flex'>
+       <div className='logos'>
+      <div className='logos-slide'>
+        <div className='flex flex-row justify-center items-center gap-10 lg:gap-20'>
+        <div className='h-[50px] flex justify-center' >
+        <Image src={'/Vogue.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mt-3 justify-center'>
+        <Image src={'/InStyle.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[55px] mt-3 flex justify-center'>
+        <Image src={'/Catalyst.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[48px] flex justify-center'>
+        <Image src={'/Covergirl.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mb-2 justify-center'>
+        <Image src={'/Vox.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[40px] flex mt-1 justify-center'>
+        <Image src={'/Zara.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+        </div>
+      </div>
+      <div className='logos-slide'>
+        <div className='flex flex-row justify-center items-center gap-10 lg:gap-20'>
+        <div className='h-[50px] flex justify-center' >
+        <Image src={'/Vogue.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mt-3 justify-center'>
+        <Image src={'/InStyle.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[55px] mt-3 flex justify-center'>
+        <Image src={'/Catalyst.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[48px] flex justify-center'>
+        <Image src={'/Covergirl.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mb-2 justify-center'>
+        <Image src={'/Vox.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[40px] flex mt-1 justify-center'>
+        <Image src={'/Zara.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+        </div>
+      </div>
+    </div>
+    </section>
+   
+  )
+}
+
+export default Brands

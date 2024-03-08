@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  body {
+    @apply font-lato  font-cormomorantGaramond
+  }
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.logos{
+  overflow: hidden;
+  padding: 40px 0;
+  white-space: nowrap;
+  background: rgb(255, 255, 255);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+  
+.logos-slide {
+ display: inline-block;
+ animation: 25s slide infinite linear;
+}
+
+
+
+  h1 {
+    @apply text-5xl md:text-[80px] leading-none;
+  }
+  h2 {
+    @apply text-[40px];
+  }
+  h3 {
+    @apply text-[22px];
+  }
+  h4 {
+    @apply text-[18px];
+  }
+  .btn {
+    @apply flex justify-center items-center h-[50px] px-8 text-black 
+    font-medium;
+  }
+  .btn-icon {
+    @apply flex justify-center items-center w-[50px] h-[50px] text-2xl
+     text-white;
+  }
+  .btn-accent{
+    @apply  bg-accent text-white 
+    hover:text-accent flex justify-center items-center font-lato  
+    font-semibold uppercase 
+  }
+   
+
+  }
+  .btn-primary{
+    @apply bg-primary hover:bg-primary-hover  transition-all; 
+  }
+  .btn-white {
+    @apply bg-white hover:bg-white/90 text-primary transition-all; 
+  }
+
+
+.popular-dress-slider .swiper-wrapper {
+  @apply !h-[600px];
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets 
+  .swiper-pagination-bullet {
+    @apply bg-black;
+  }
