@@ -45,7 +45,7 @@ const Nav = () => {
      </a>
       </div>
      <nav className="flex flex-row justify-center items-center
-   w-full py-3 px-3 gap-[7rem] md:gap-[11rem] lg:gap-[17rem] xl:gap-[23rem]">
+      w-full py-3 px-3 gap-[3rem] md:gap-[11rem] lg:gap-[17rem] xl:gap-[23rem]">
 
 
 
@@ -64,10 +64,7 @@ const Nav = () => {
        </div> 
       <div className="hidden lg:inline-flex
        font-lato flex-row gap-10">
-      <Link className="relative cursor-pointer before:absolute 
-      before:inset-x-0 before:-botton-1.5 before:h-0.5 before:origin-left
-      before:scale-x-0 before:transform before:rounded-bl before:bg-black
-      before:transition-all before:duration-200 hover:before:scale-x-100"
+      <Link 
       href='/'>
        Home
        </Link>
