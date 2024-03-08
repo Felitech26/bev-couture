@@ -52,16 +52,6 @@ const Bevs = ({bevs}) => {
       <h5 className="text-center text-black mb-[1px] text-xl font-normal">{bevs.name}</h5>
       <div className="text-center text-lg font-normal  text-accent gap-3
       ">£{bevs.price}</div>
-      <div className="text-center mt-6 md:hidden l">
-      <AddToCartBtn 
-          price_id={bevs.price_id}
-          name={bevs.name}
-          currency='GBP'
-          description={bevs.description}
-          images={bevs.images}
-          price={bevs.price}
-          />
-      </div>
     </div>
   )
 } 
