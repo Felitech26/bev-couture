@@ -41,12 +41,103 @@ const AboutCategories = () => {
         </div>
        
       </div>
+      <div >
+        <h5 className='text-[40px] text-center pt-[5rem] mb-2 font-medium'>
+          Trusted By The <span className='text-accent'>World Leading Brands</span>
+        </h5>
+      <div className='logos'>
+      <div className='logos-slide'>
+        <div className='flex flex-row justify-center items-center gap-10 lg:gap-20'>
+        <div className='h-[50px] flex justify-center' >
+        <Image src={'/Vogue.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mt-3 justify-center'>
+        <Image src={'/InStyle.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[55px] mt-3 flex justify-center'>
+        <Image src={'/Catalyst.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[48px] flex justify-center'>
+        <Image src={'/Covergirl.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mb-2 justify-center'>
+        <Image src={'/Vox.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[40px] flex mt-1 justify-center'>
+        <Image src={'/Zara.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+        </div>
+      </div>
+      <div className='logos-slide'>
+        <div className='flex flex-row justify-center items-center gap-10 lg:gap-20'>
+        <div className='h-[50px] flex justify-center' >
+        <Image src={'/Vogue.png'}
+        width={200} 
+        height={100}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mt-3 justify-center'>
+        <Image src={'/InStyle.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[55px] mt-3 flex justify-center'>
+        <Image src={'/Catalyst.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[48px] flex justify-center'>
+        <Image src={'/Covergirl.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[50px] flex mb-2 justify-center'>
+        <Image src={'/Vox.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className='h-[40px] flex mt-1 justify-center'>
+        <Image src={'/Zara.png'}
+        width={200}
+        height={100}
+        alt=''/>
+      </div>
+        </div>
+      </div>
+    </div>
+      </div>
+     
+
       <div className='flex flex-col mt-20'>
       <div className='mb-6 flex justify-center items-center text-accent
       text-[30px] font-light'>
          <h5 className='container font-semibold text-center'>Dress to Impress: Mastering the Art of Personal 
          Style</h5> 
          </div>
+       
+
         <div className='container mx-auto flex justify-center items-center flex-col mb-10 
         lg:text-[40px] '>
         

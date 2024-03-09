@@ -46,13 +46,13 @@ const Nav = () => {
      <div>
       <Link href='/'>
      <Image src={'/logo.svg'} 
-      width={140}
-      height={90}
+      width={170}
+      height={100}
       alt="logo" />  
       </Link> 
        </div> 
       <div className="hidden lg:inline-flex
-       font-lato flex-row gap-10">
+       font-lato text-[18px] font-medium flex-row gap-10">
       <Link
       href='/'>
        Home
@@ -68,18 +68,21 @@ const Nav = () => {
        </Link>
       </div>
 
-      <div className="text-sm font-lato lg:hidden">
+     
+      
+     <div className="flex flex-row gap-5">
+     <div className="font-lato lg:hidden">
       <Link  href='/shop'
       >
        Shop
        </Link>
       </div>
-      
-     
-
       <div className="font-lato">
       <ShoppingCart />
       </div>
+     </div>
+
+     
         
      
       </nav>
