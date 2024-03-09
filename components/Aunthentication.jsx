@@ -6,21 +6,24 @@ const Aunthentication = async () => {
 
   const { isAuthenticated } = getKindeServerSession();
   return (
-    <div className="flex flex-row justify-center items-center
-       lg:text-[#d2d0d0]">
+    <div className="flex flex-row justify-center items-center gap-2
+       lg:text-white">
       {await isAuthenticated() ? (
-        <div className="text-[15px]">
-           <LogoutLink >Logout</LogoutLink>
+        <div className="text-[19px]  lg:inline-flex">
+           <LogoutLink className="text-sm" >Logout</LogoutLink>
         </div>
        
       ): (
-        <div className="text-[15px]" >
+        <div className="text-[19px] lg:inline-flex" >
         <LoginLink>Login</LoginLink>
            <RegisterLink className="hidden">Sign up</RegisterLink>
      </div>
       )}
 
-
+      <div className="flex flex-row  gap-2
+      lg:text-white text-[20px] "> 
+       
+      </div>
       </div>
   )
 }
