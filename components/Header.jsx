@@ -12,7 +12,7 @@ const Header  = () => {
       <Link href='/'>
       Free UK Delivery on all orders above £130
       </Link>
-      <div className="mr-2">
+      <div className="mr-2 hidden">
       <Aunthentication  />
       </div>
       
