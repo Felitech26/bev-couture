@@ -30,12 +30,12 @@ const AboutCategories = () => {
           <h5 className='font-lato text-[#2f2f2f]'>
           As a global online fashion brand, we’re on a mission to empower
            our customers to feel confident and be their best selves – 
-           authentically & unapologetically. At Showpo, we value body 
+           authentically & unapologetically. At Bev Couture, we value body 
            positivity and are committed to offering an inclusive range 
-           of trend-driven styles designed exclusively in Australia. 
+           of trend-driven styles designed exclusively in United Kingdom. 
            Our styles are made for everyone, for every occasion, 
            and we want you to embrace your individuality and express
-            yourself in true Showpo fashion.
+          yourself in true Bev Couture fashion.
           </h5>
          
         </div>

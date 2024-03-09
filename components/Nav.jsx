@@ -33,19 +33,8 @@ const Nav = () => {
   return (
     <div className={header ? " w-[100%] fixed bg-[#ddd9dd]" : "bg-transparent"}> 
      <div className="header">
-     <div className="hidden bg-black text-[#d2d0d0] py-3 font-lato w-full lg:inline-flex flex-row justify-center 
-      items-center gap-[20rem] text-[15px]">
-      <Link href='/' className="">
-      Free UK Delivery on all orders above £130
-      </Link>
-     <a className="flex flex-row justify-center items-center gap-2" 
-     href="mailto:Uniteddevelopment83@gmail.com">
-       <MdMailOutline className="flex text-center"/>
-      info@bevcouture.com
-     </a>
-      </div>
      <nav className="flex flex-row justify-between lg:justify-center items-center
-   w-full py-3 px-3 gap-[2rem] md:gap-[11rem] lg:gap-[15rem] xl:gap-[23rem]">
+   w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[15rem] xl:gap-[23rem]">
 
 
 

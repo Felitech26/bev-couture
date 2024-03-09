@@ -40,7 +40,7 @@ const CartSidebar = () => {
           <h5 className='text-black/50 text-center mb-5'>
             Your cart is currently empty</h5>
            <div>
-           <Link href='/our-collection'>
+           <Link href='/shop'>
       <button className="btn btn-accent mx-auto">SHOP COLLECTION</button>
   </Link>
 

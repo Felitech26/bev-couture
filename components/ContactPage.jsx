@@ -5,18 +5,18 @@ import { CiChat2 } from "react-icons/ci";
 
 const ContactPage = () => {
   return (
-<div className="h-[400vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
+<div className=" h-[450vh]  mg:h-[400vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
 
 <div>
 <h5 className="text-center text-[30px] mb-10 font-light"> 
       Contact</h5>
       <Image src={'/africa.png'}
       width={1700}
-      height={200}
+      height={400}
       alt=""
       className="fixed"/>
 
-<div className="container mx-auto h-[220vh] lg:h-[180vh] py-[5rem]
+<div className="container mx-auto h-[300vh] lg:h-[240vh] py-[5rem]
  mt-[12rem] relative bg-white">
   <div>
   <div className="flex flex-col font-lato lg:flex-row justify-center items-center 
@@ -111,6 +111,11 @@ const ContactPage = () => {
       </div>
     </div>
   
+  </div>
+
+  <div>
+    <div></div>
+    <div></div>
   </div>
   </div>
 </div>
