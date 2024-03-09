@@ -28,7 +28,7 @@ const CartSidebar = () => {
     <Sheet open={shouldDisplayCart} onOpenChange={() => handleCartClick()}>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className='flex flex-col text-center mb-7 text-[#000000]'>
+          <SheetTitle className='flex font-lato flex-col text-center mb-7 text-[#000000]'>
         Shooping Cart ({cartCount})
         <span className="w-full mt-3 h-[1px] bg-[#acacac] font-thin"></span>
           </SheetTitle>
@@ -56,7 +56,7 @@ const CartSidebar = () => {
           </ScrollArea>)}
         </>
       { cartCount > 0 && (
-        <div>
+        <div className='font-lato'>
           <div className='flex justify-between font-semibold'>
             <div className='uppercase mb-5'>Subtotal</div>
             <div>£{totalPrice}</div>

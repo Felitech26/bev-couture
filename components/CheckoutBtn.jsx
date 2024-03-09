@@ -17,7 +17,7 @@ const CheckoutBtn = () => {
   };
   const {redirectToCheckout} = useShoppingCart();
   return (
-    <button className="btn-accent"onClick={handleCheckout}>Proceed To Checkout</button>
+    <button className="btn btn-accent w-full" onClick={handleCheckout}>Proceed To Checkout</button>
   )
 }
 

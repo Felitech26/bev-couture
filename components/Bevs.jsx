@@ -15,7 +15,7 @@ const Bevs = ({bevs}) => {
     <div>
       <div className=" h-[450px] mt-10 overflow-hidden relative group transition">
         <div className="w-full h-full flex justify-center items-center">
-        <div className="w-[360px] flex justify-center items-center">
+        <div className="w-[360px] mx-auto flex justify-center items-center">
         <Image 
          className="group-hover:scale-95 transition duration-500"
          src={urlFor(bevs.images[0]).url()} 
@@ -24,10 +24,7 @@ const Bevs = ({bevs}) => {
          alt=""
          />
         </div>
-
          </div>
-
-
          {/* btn group */}
          <div className="absolute top-0 left-0 -right-11 bottom-0 flex 
          group-hover:right-2

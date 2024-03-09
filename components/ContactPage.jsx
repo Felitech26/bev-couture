@@ -87,12 +87,12 @@ const ContactPage = () => {
     
   </div>
   <div className="py-[5rem] xl:px-[5rem]">
-    <div className="w-full h-[85vh] bg-[#f1eeef] flex flex-col 
+    <div className="w-full  md:h-[85vh] bg-[#f1eeef] flex flex-col 
     lg:flex-row">
       <div className="lg:w-[35%] flex flex-col justify-start items-center
       mt-[3rem] lg:mt-[10rem] mb-[3rem]">
-        <h5 className="font-cormomorantGaramond 
-        text-[40px]">Our Store</h5>
+        <h5 className="font-cormomorantGaramond text-[30px]
+        lg:text-[40px]">Our Store</h5>
  <h5 className="text-center text-[18px] font-lato mt-10"> 
  5-7 Wembley Hill Rd, Wembley</h5>
 

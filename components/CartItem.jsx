@@ -9,7 +9,7 @@ import {FaPlus, FaMinus, FaX } from 'react-icons/fa6'
 const CartItem = ({ item }) => {
   const { removeItem, incrementItem, decrementItem} = useShoppingCart();
   return (
-    <div className='flex font-lato w-full justify-between mb-4 items-center
+    <div className='flex w-full font-lato justify-between mb-4 items-center
      h-[120px] border-b'>
       {/* image */}
      <div className="w-[90px] h-[100px] relative">

@@ -44,9 +44,8 @@ const Nav = () => {
       info@bevcouture.com
      </a>
       </div>
-     <nav className="flex flex-row justify-center items-center
-      w-full py-3 px-3 gap-[3rem] md:gap-[11rem] lg:gap-[17rem] 
-      xl:gap-[23rem]">
+     <nav className="flex flex-row justify-between lg:justify-center items-center
+   w-full py-3 px-3 gap-[2rem] md:gap-[11rem] lg:gap-[15rem] xl:gap-[23rem]">
 
 
 
@@ -65,7 +64,7 @@ const Nav = () => {
        </div> 
       <div className="hidden lg:inline-flex
        font-lato flex-row gap-10">
-      <Link 
+      <Link
       href='/'>
        Home
        </Link>
