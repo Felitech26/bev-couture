@@ -34,7 +34,7 @@ const ShopCategories = ({bev}) => {
     <div className="mb-10 gap-2 flex flex-col justify-center
     items-center">
     <h5 className=" font-cormomorantGaramond
-    font-semibold text-xl">All Clothing</h5>
+    font-semibold text-xl">All Collection</h5>
     <p className=" text-[#4a4b4b] lg:w-[50%]">
       Get dressed effortlessly throughout the seasons with our easy take on
        the latest trends - 

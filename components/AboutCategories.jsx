@@ -41,7 +41,7 @@ const AboutCategories = () => {
         </div>
        
       </div>
-      <div >
+      <div className='hidden lg:inline-block'>
         <h5 className='text-[40px] text-center pt-[5rem] mb-2 font-medium'>
           Trusted By The <span className='text-accent'>World Leading Brands</span>
         </h5>
