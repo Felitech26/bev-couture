@@ -9,8 +9,8 @@ export default function Home() {
     <main className="h-[4000px]"> 
     <Hero/>
      <PopularDress />
-     <Brands />
      <Category />
+     <Brands />
     </main>
   );
 }
