@@ -11,7 +11,7 @@ const Hero = () => {
         className='object-cover w-full h-[620px] md:h-[650px] 
         lg:h-[900px] xl:h-[920px] absolute '/>
 
-<div className='flex relative w-full mt-4 h-full bg-opacity-50 bg-black flex-col justify-center 
+<div className='hidden relative w-full mt-4 h-full bg-opacity-30 bg-black flex-col justify-center 
 items-center text-white gap-4'>
         <h5 className='font-lato text-[14px] lg:text-[20px] font-normal text-white
         '>UNCONDITIONAL <span className='text-accent italic
@@ -23,9 +23,8 @@ items-center text-white gap-4'>
      <Link href='/shop'>
       <button className=" w-[200px] text-[20px] h-[200] relative font-bold py-3
        bg-transparent border-[2px]
-       border-accent text-white items-center transition-colors
-       before:absolute before:left-0 
-        before:top-0 before:-z-10 before:h-full after:hover:text-white
+       border-accent text-accent items-center transition-colors
+       before:absolute before:left-0
        before:w-full before:origin-top-left before:scale-x-0 
        before:hover:bg-accent before:transition-transform  
        before:duration-300 before:content-['']
