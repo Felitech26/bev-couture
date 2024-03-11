@@ -23,7 +23,7 @@ items-center text-white gap-4'>
      <Link href='/shop'>
       <button className=" w-[200px] text-[20px] h-[200] relative font-bold py-3
        bg-transparent border-[2px]
-       border-accent text-black items-center transition-colors
+       border-accent text-white items-center transition-colors
        before:absolute before:left-0 
         before:top-0 before:-z-10 before:h-full after:hover:text-white
        before:w-full before:origin-top-left before:scale-x-0 
