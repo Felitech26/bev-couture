@@ -7,7 +7,7 @@ const Hero = () => {
      <div>
       <div className='h-[620px] md:h-[650px] lg:h-[900px] xl:h-[920px] '>
         <video src={'./videoBg.mp4'} 
-        autoPlay muted loop
+        autoPlay muted loop controls={false}
         className='object-cover w-full h-[620px] md:h-[650px] 
         lg:h-[900px] xl:h-[920px] absolute '/>
 
