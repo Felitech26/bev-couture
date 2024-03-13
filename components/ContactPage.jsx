@@ -10,18 +10,18 @@ import { FaTiktok } from "react-icons/fa";
 
 const ContactPage = () => {
   return (
-<div className=" h-[450vh]  mg:h-[400vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
+<div className="sm:h-[400vh] md:h-[430vh] lg:h-[400vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
 
 <div>
 <h5 className="text-center text-[30px] mb-10 font-light"> 
       Contact</h5>
       <Image src={'/africa.png'}
       width={1700}
-      height={400}
+      height={700}
       alt=""
       className="fixed"/>
 
-<div className="container mx-auto h-[340vh] md:h-[370vh] lg:h-[230vh] py-[5rem]
+<div className="container mx-auto h-[300vh] sm:h-[340vh] md:h-[370vh] lg:h-[230vh] xl:h-[235vh] py-[5rem]
  mt-[12rem] relative bg-white">
   <div>
   <div className="flex flex-col font-lato lg:flex-row justify-center items-center 
@@ -128,25 +128,26 @@ const ContactPage = () => {
 
   </div>
 
-  <div className="w-full h-full py-[3rem] px-[1rem] xl:px-[5rem]
-  flex flex-row gap-[6rem]">
+  <div className="w-full h-full py-[3rem] sm:px-[3rem] xl:px-[5rem]
+  flex flex-row justify-center items-center gap-[6rem]">
     <div>
     <h3 className="font-semibold mb-6 text-[30px]">Get In Touch</h3>
     <form className="flex-1 flex flex-col gap-6 w-full mx-auto">
     <div className="flex flex-col lg:flex-row gap-y-9 lg:gap-x-9 ">
     <input type="text" placeholder="Name"className="border-2 
-    w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50 text-lg 
-    placeholder:text-[#6b6a6a] placeholder:text-md "/>
+    w-[345px] sm:w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50
+     text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
     <input type="text" placeholder="Email"  className="border-2 
-    w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50 text-lg 
-    placeholder:text-[#6b6a6a] placeholder:text-md "/>
+   w-[345px] sm:w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50
+    text-lg placeholder:text-[#6b6a6a] placeholder:text-md "/>
     </div>
-    <input type="text" placeholder="Phone Number"   className="border-2 p-2.5 
-    outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
-    placeholder:text-md w-[500px] lg:w-[676px]"/>
+    <input type="text" placeholder="Phone Number"   className="border-2 
+    p-2.5 outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
+    placeholder:text-md w-[345px] sm:w-[500px] lg:w-[676px]"/>
     <textarea placeholder="Message"  className="border-2 p-2.5 
     outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
-    placeholder:text-md w-[500px] h-[180px] lg:w-[676px]"></textarea>
+    placeholder:text-md w-[345px] sm:w-[500px] h-[180px] lg:w-[676px]">     
+    </textarea>
     </form>
     <a href="mailto:Uniteddevelopment83@gmail.com">
     <button className="mt-10 bg-black
