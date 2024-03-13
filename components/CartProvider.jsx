@@ -11,7 +11,7 @@ const CartProvider = ({children}) => {
     cartMode='client-only'
     stripe={process.env.NEXT_PUBLIC_STRIPE_KEY}
     successUrl='https://bev-couture.vercel.app/stripe/success'
-    cancelUrl='http://localhost:3000/stripe/error'
+    cancelUrl='https://bev-couture.vercel.app/stripe/error'
     languague='en-GB'
     currency='GBP'
     billingAddressCollection={true}
