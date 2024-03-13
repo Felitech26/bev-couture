@@ -8,7 +8,7 @@ const AboutCategories = () => {
        font-normal text-center'>About Us </h5>
 
      <div className='container mx-auto mt-[3rem] flex justify-center
-     items-start flex-col xl:flex-row xl:gap-[8rem]'>
+      items-center xl:items-start flex-col xl:flex-row xl:gap-[8rem]'>
      
         <div className='flex justify-center items-center hover:scale-95 
        lg:hover:scale-110 transition duration-500'>
@@ -18,7 +18,7 @@ const AboutCategories = () => {
          alt="" 
          className='xl:h-[500px] '/>
         </div>
-      <div className='xl:w-[40%] mt-10 xl:mt-7 flex flex-col gap-4'>
+      <div className='xl:w-[40%] w-[100%] mt-10 xl:mt-7 flex flex-col gap-4'>
           <h5 className='font-lato text-[20px]'>
           Unconditional Beauty
           </h5>

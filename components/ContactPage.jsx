@@ -2,6 +2,11 @@ import Image from "next/image"
 import { CiLocationOn } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 import { CiChat2 } from "react-icons/ci";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+
 
 const ContactPage = () => {
   return (
@@ -16,7 +21,7 @@ const ContactPage = () => {
       alt=""
       className="fixed"/>
 
-<div className="container mx-auto h-[300vh] lg:h-[240vh] py-[5rem]
+<div className="container mx-auto h-[340vh] md:h-[370vh] lg:h-[230vh] py-[5rem]
  mt-[12rem] relative bg-white">
   <div>
   <div className="flex flex-col font-lato lg:flex-row justify-center items-center 
@@ -86,36 +91,83 @@ const ContactPage = () => {
     </div>
     
   </div>
-  <div className="py-[5rem] xl:px-[5rem]">
-    <div className="w-full  md:h-[85vh] bg-[#f1eeef] flex flex-col 
+  <div className="py-[4rem] md:py-[14rem] lg:py-[5rem] xl:px-[5rem]">
+    <div className="w-full md:h-[85vh] bg-[#f1eeef] flex flex-col 
     lg:flex-row">
-      <div className="lg:w-[35%] flex flex-col justify-start items-center
+      <div className="lg:w-[40%] flex flex-col justify-start items-center
       mt-[3rem] lg:mt-[10rem] mb-[3rem]">
         <h5 className="font-cormomorantGaramond text-[30px]
-        lg:text-[40px]">Our Store</h5>
- <h5 className="text-center text-[18px] font-lato mt-10"> 
+        ">Our Store</h5>
+ <h5 className="text-center text-[16px] text-[#6d6d6d] font-lato mt-3"> 
  5-7 Wembley Hill Rd, Wembley</h5>
 
-<h5 className="text-center text-[18px] font-lato">info@bevcouture.com</h5>
-<h5 className="text-center text-[18px] font-lato">+44 (0) 149 495 67206</h5>
+<h5 className="text-center text-[#6d6d6d] text-[16px] font-lato">info@bevcouture.com</h5>
+<h5 className="text-center text-[#6d6d6d] text-[16px] font-lato mb-[3rem]">+44 (0) 149 495 67206</h5>
+
+<h5 className="font-cormomorantGaramond text-[30px] 
+">Opening Hours</h5>
+<h5  className="text-center text-[#6d6d6d] text-[16px] font-lato mt-3">Monday to Friday 8am to 5pm, Australian </h5>
+<h5  className="text-center text-[#6d6d6d] text-[16px] font-lato">Eastern Standard Time. </h5>
+
       </div>
-      <div >
+      <div>
         <Image src={'/store.png'}
         width={1000}
         height={700}
         priority
         alt=""
-        className="h-full"
+        className="h-full w-full"
         
         />
       </div>
     </div>
   
   </div>
-
   <div>
-    <div></div>
-    <div></div>
+
+
+  </div>
+
+  <div className="w-full h-full py-[3rem] px-[1rem] xl:px-[5rem]
+  flex flex-row gap-[6rem]">
+    <div>
+    <h3 className="font-semibold mb-6 text-[30px]">Get In Touch</h3>
+    <form className="flex-1 flex flex-col gap-6 w-full mx-auto">
+    <div className="flex flex-col lg:flex-row gap-y-9 lg:gap-x-9 ">
+    <input type="text" placeholder="Name"className="border-2 
+    w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50 text-lg 
+    placeholder:text-[#6b6a6a] placeholder:text-md "/>
+    <input type="text" placeholder="Email"  className="border-2 
+    w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50 text-lg 
+    placeholder:text-[#6b6a6a] placeholder:text-md "/>
+    </div>
+    <input type="text" placeholder="Phone Number"   className="border-2 p-2.5 
+    outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
+    placeholder:text-md w-[500px] lg:w-[676px]"/>
+    <textarea placeholder="Message"  className="border-2 p-2.5 
+    outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
+    placeholder:text-md w-[500px] h-[180px] lg:w-[676px]"></textarea>
+    </form>
+    <a href="mailto:Uniteddevelopment83@gmail.com">
+    <button className="mt-10 bg-black
+    px-5 py-3 border border-xl text-white border-black text-lg
+    hover:bg-white hover:text-black">Send Message</button>
+    </a>
+    
+    </div>
+
+    <div className="mt-10 hidden xl:inline-block">
+      <h1 className="">Welcome To</h1>
+      <h1>  <span className="text-accent">Bev </span>Couture</h1>
+      <h3 className="mt-2 mb-3 text-[30px]">Our Scocials</h3>
+      <div className=" flex flex-row text-[23px] text-accent gap-3">
+       <FaInstagram />
+       <FaXTwitter />
+       <FaFacebook/>
+       <FaTiktok />
+      </div>
+    </div>
+    
   </div>
   </div>
 </div>

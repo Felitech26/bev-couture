@@ -34,7 +34,7 @@ const Nav = () => {
     <div className={header ? " w-[100%] fixed bg-[#ddd9dd]" : "bg-transparent"}> 
      <div className="header">
      <nav className="flex flex-row justify-between lg:justify-center items-center
-   w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[15rem] xl:gap-[23rem]">
+   w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[11rem] xl:gap-[23rem]">
 
 
 
@@ -71,7 +71,7 @@ const Nav = () => {
      
       
      <div className="flex flex-row gap-5">
-     <div className="font-lato lg:hidden">
+     <div className="font-lato hidden">
       <Link  href='/shop'
       >
        Shop
