@@ -128,24 +128,24 @@ const ContactPage = () => {
 
   </div>
 
-  <div className="w-full h-full py-[3rem] sm:px-[3rem] xl:px-[5rem]
+  <div className="w-full h-full py-[5rem] sm:px-[3rem] xl:px-[5rem]
   flex flex-row justify-center items-center gap-[6rem]">
     <div>
     <h3 className="font-semibold mb-6 text-[30px]">Get In Touch</h3>
     <form className="flex-1 flex flex-col gap-6 w-full mx-auto">
     <div className="flex flex-col lg:flex-row gap-y-9 lg:gap-x-9 ">
-    <input type="text" placeholder="Name"className="border-2 
-    w-[345px] sm:w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50
+    <input type="text" placeholder="Name"className="border border-solid
+    py-3 px-6 w-[345px] sm:w-[500px] lg:w-[320px] outline-none border-black/50
      text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
-    <input type="text" placeholder="Email"  className="border-2 
-   w-[345px] sm:w-[500px] lg:w-[320px] p-2.5 outline-none border-black/50
+    <input type="text" placeholder="Email"  className="border border-solid
+    py-3 px-6 w-[345px] sm:w-[500px] lg:w-[320px] outline-none border-black/50
     text-lg placeholder:text-[#6b6a6a] placeholder:text-md "/>
     </div>
-    <input type="text" placeholder="Phone Number"   className="border-2 
-    p-2.5 outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
+    <input type="text" placeholder="Phone Number"   className=" border border-solid
+    py-3 px-6 outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
     placeholder:text-md w-[345px] sm:w-[500px] lg:w-[676px]"/>
-    <textarea placeholder="Message"  className="border-2 p-2.5 
-    outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
+    <textarea placeholder="Message"  className="border border-solid
+    py-3 px-6 outline-none border-black/50 text-lg placeholder:text-[#6b6a6a] 
     placeholder:text-md w-[345px] sm:w-[500px] h-[180px] lg:w-[676px]">     
     </textarea>
     </form>
