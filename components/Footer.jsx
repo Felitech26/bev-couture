@@ -6,8 +6,8 @@ import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bottom-0 z-42">
-      <h1>come home</h1>
+    <footer className="w-full bg-slate-500 h-[30vh] bottom-0 z-42">
+      <h1>Footer</h1>
       </footer>
   )
 }
