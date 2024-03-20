@@ -3,12 +3,12 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="mx-auto px-3"> 
+    <section className="mx-auto"> 
      <h5 className="mb-10 text-[30px] md:text-[40px] text-center
       uppercase">Shop By Categories</h5> 
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-7">
+      <div className="flex flex-col lg:flex-row justify-center items-center lg:gap-7">
       <div className="h-fit group ">
-        <div className="relative w-[500px] lg:w-[320px] xl:w-[480px] overflow-hidden">
+        <div className="relative w-full md:w-[600px] lg:w-[320px] xl:w-[480px] overflow-hidden">
            <Image src={'/continental.png'} 
            width={600}
            height={400}
@@ -32,7 +32,7 @@ const Category = () => {
         </div>
         </div> 
       <div className="h-fit group ">
-        <div className="relative w-[500px] lg:w-[320px] xl:w-[480px] overflow-hidden">
+        <div className="relative w-full md:w-[600px] lg:w-[320px] xl:w-[480px] overflow-hidden">
            <Image src={'/casual.png'} 
            width={600}
            height={400}
@@ -56,7 +56,7 @@ const Category = () => {
         </div>
         </div> 
       <div className="h-fit group ">
-        <div className="relative w-[500px] lg:w-[320px] xl:w-[480px] overflow-hidden">
+        <div className="relative w-full md:w-[600px] lg:w-[320px] xl:w-[480px] overflow-hidden">
            <Image src={'/afri.png'} 
            width={600}
            height={400}
