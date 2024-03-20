@@ -9,7 +9,7 @@ const Category = () => {
       <div className="flex flex-col lg:flex-row justify-center items-center gap-7">
       <div className="h-fit group ">
         <div className="relative w-[500px] lg:w-[320px] xl:w-[480px] overflow-hidden">
-           <Image src={'/con.png'} 
+           <Image src={'/continental.png'} 
            width={600}
            height={400}
            alt=""
