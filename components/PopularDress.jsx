@@ -25,7 +25,7 @@ const getData = async () => {
 const PopularDress = async () => {
   const bev = await getData();
   return (
-    <section className="font-lato py-[5rem] px-[5rem]">
+    <section className="container font-lato py-[5rem]">
   <div >
    <h2 className="text-center text-[30px] md:text-[40px] font-medium
     font-cormomorantGaramond ">ICONIC MUST HAVES</h2>
