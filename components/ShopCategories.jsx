@@ -14,7 +14,6 @@ const ShopCategories = ({bev}) => {
  console.log(category)
 
  
-
  useEffect(() => {
     const filtered = bev.filter((bevs)=> {
       const categoryMatch = 

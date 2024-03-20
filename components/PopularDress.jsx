@@ -25,9 +25,10 @@ const getData = async () => {
 const PopularDress = async () => {
   const bev = await getData();
   return (
-    <section className="container mx-auto font-lato py-[6rem]">
-  <div className="pb-[3rem]" >
-   <h2 className="text-center font-cormomorantGaramond ">ICONIC MUST HAVES</h2>
+    <section className="font-lato py-[5rem] px-[5rem]">
+  <div >
+   <h2 className="text-center text-[30px] md:text-[40px] font-medium
+    font-cormomorantGaramond ">ICONIC MUST HAVES</h2>
    <p className="text-center font-lato text-[#2f2f2f]">Creativity and 
     sustainability are the driving forces behind the Bev Couture
      Clothing brand. </p>

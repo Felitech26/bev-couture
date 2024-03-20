@@ -31,7 +31,7 @@ const Nav = () => {
   },[] )
 
   return (
-    <div className={header ? " w-[100%] fixed bg-[#b6acb6]" : "bg-transparent"}> 
+    <div className={header ? " w-[100%] fixed bg-[#e9e3e4]" : "bg-transparent"}> 
      <div className="header">
      <nav className="flex flex-row justify-between lg:justify-center items-center
    w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[11rem] xl:gap-[23rem]">
