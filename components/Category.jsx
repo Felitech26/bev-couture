@@ -15,8 +15,8 @@ const Category = () => {
       </h5>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-7">
-        <div className="group overflow-hidden">
+      <div className="flex flex-col lg:flex-row justify-center items-center px-3 gap-7">
+        <div className="group overflow-hidden flex justify-center items-center">
         <div className="w-[500px] h-[600px] group-hover:scale-110 transition-all duration-500">
         <div className="absolute">
       <Image src={'/continental.png'}
@@ -42,7 +42,7 @@ const Category = () => {
       </div>
         </div>
         </div>
-        <div className="group overflow-hidden">
+        <div className="group overflow-hidden flex justify-center items-center">
         <div className="w-[500px] h-[600px] group-hover:scale-110 transition-all duration-500">
         <div className="absolute">
       <Image src={'/casual.png'}
@@ -66,7 +66,7 @@ const Category = () => {
       </div>
         </div>
         </div>
-        <div className="group overflow-hidden">
+        <div className="group overflow-hidden flex justify-center items-center">
         <div className="w-[500px] h-[600px] group-hover:scale-110 transition-all duration-500">
         <div className="absolute">
       <Image src={'/afri.png'}
