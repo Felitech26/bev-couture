@@ -76,8 +76,4 @@
   @apply !h-[600px];
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets 
-  .swiper-pagination-bullet {
-    @apply bg-black;
-  }
+

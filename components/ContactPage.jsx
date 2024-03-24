@@ -10,22 +10,27 @@ import { FaTiktok } from "react-icons/fa";
 
 const ContactPage = () => {
   return (
-<div className="h-[350vh] sm:h-[400vh] md:h-[430vh] lg:h-[400vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
+
+<section>
+<div className="max-h-[380vh] md:max-h-[450vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
 
 <div>
-<h5 className="text-center text-[30px] mb-10 font-light"> 
-      Contact</h5>
-      <Image src={'/africa.png'}
+<h5 className="text-center text-[30px] mb-10 font-light"> Contact</h5>
+     
+     <div className="fixed hidden lg:inline-flex">
+     <Image src={'/africa.png'}
       width={1700}
       height={700}
       alt=""
-      className="fixed"/>
+      />
+     </div>
+      
 
-<div className="container mx-auto h-[300vh] sm:h-[340vh] md:h-[370vh] lg:h-[230vh] xl:h-[235vh] py-[5rem]
- mt-[12rem] relative bg-white">
+<div className="container
+ mt-[5rem] lg:mt-[10rem] relative bg-white">
   <div>
-  <div className="flex flex-col font-lato lg:flex-row justify-center items-center 
-  gap-[3rem] lg:gap-[2rem] xl:gap-[7rem]">
+  <div className="flex flex-col font-lato lg:flex-row justify-center 
+  items-center lg:pt-[5rem] gap-[3rem] lg:gap-[2rem] xl:gap-[7rem]">
     <div className="flex flex-col justify-center items-center gap-1">
       <div className="bg-[#f4f1f2] w-[90px] h-[90px] rounded-[45px] 
       flex justify-center items-center mb-4">
@@ -92,9 +97,9 @@ const ContactPage = () => {
     
   </div>
   <div className="py-[4rem] md:py-[14rem] lg:py-[5rem] xl:px-[5rem]">
-    <div className="w-full md:h-[85vh] bg-[#f1eeef] flex flex-col 
+    <div className="w-full xl:h-[85vh] bg-[#f1eeef] flex flex-col 
     lg:flex-row">
-      <div className="lg:w-[40%] flex flex-col justify-start items-center
+      <div className="lg:w-[50%] xl:w-[40%] flex flex-col justify-start items-center
       mt-[3rem] lg:mt-[10rem] mb-[3rem]">
         <h5 className="font-cormomorantGaramond text-[30px]
         ">Our Store</h5>
@@ -183,6 +188,8 @@ const ContactPage = () => {
        
       
       </div>
+</section>
+
   )
 }
 

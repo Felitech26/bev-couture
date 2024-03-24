@@ -7,7 +7,7 @@ const Brands = () => {
        <h5 className='text-[40px] text-center mb-10 font-medium'>
        Featured  <span className='text-accent'>In  </span> 
         </h5>
-     <div className='grid grid-cols-2 justify-center items-center gap-5 lg:gap-20'>
+     <div className='grid grid-cols-2 justify-center items-center gap-[3rem] lg:gap-20'>
         <div className='h-[50px] flex justify-center' >
         <Image src={'/Vogue.png'}
         width={200}

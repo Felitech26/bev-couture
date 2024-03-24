@@ -12,16 +12,14 @@ const ShoppingCart = () => {
   
   return (
   
-      <div 
-     
-      className="flex flex-row gap-2">
-        <div className="relative text-[20px] cursor-pointer">
+      <div >
+        <div className="text-[20px] cursor-pointer relative">
 
         <BsBagDash onClick={() => handleCartClick()} />
         <div
          onClick={() => handleCartClick()}
         className="bg-accent text-white w-[15px] lg:w-[16px] h-[15px] lg:h-[16px]
-        absolute text-[11px] font-normal
+         text-[11px] font-normal absolute
         -right-2 -bottom-2 rounded-full flex justify-center 
         align-middle items-center">{cartCount}</div>
         

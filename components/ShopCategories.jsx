@@ -30,20 +30,19 @@ const ShopCategories = ({bev}) => {
   return (
   <div className="min-h-[3200px] py-[8rem] font-lato">
    <div className="container mx-auto">
-    <div className="mb-10 gap-2 flex flex-col justify-center
+    <div className="mb-10 xl:mb-0 gap-2 flex flex-col justify-center
     items-center">
-    <h5 className=" font-cormomorantGaramond
-    font-semibold text-xl">All Collection</h5>
+    <h5 className="font-cormomorantGaramond
+    font-semibold text-xl mb-2">All Collection</h5>
     <p className=" text-[#4a4b4b] lg:w-[50%]">
       Get dressed effortlessly throughout the seasons with our easy take on
-       the latest trends - 
-    from all-in-one dresses to the hero separates you can't live without.
+       the latest trends from al dresses to the hero separates you can't live without.
      Your next favourite outfit starts here</p>
     </div>
     
     <div className="flex flex-col">
               {/* sidebar */}
-    <aside className="w-[300px] py-1 xl:w-[300px]
+    <aside className="w-[300px] pb-1
     xl:h-[84vh] xl:fixed">
       <RadioGroup defaultValue='all' 
       className='flex flex-col gap-6 mb-12'>
