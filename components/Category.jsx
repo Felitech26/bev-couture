@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="pb-[5rem] px-[5rem]"> 
+    <section className="pb-[5rem]"> 
      <h5 className="mb-5 text-[30px] md:text-[40px] text-center
       uppercase">Shop By Categories</h5> 
 
