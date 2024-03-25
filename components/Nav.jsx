@@ -31,10 +31,10 @@ const Nav = () => {
   },[] )
 
   return (
-    <div className={header ? " w-[100%] fixed bg-[#e9e3e4]" : "bg-transparent"}> 
+    <div className={header ? " w-[100%] fixed bg-[#ffffff]" : "bg-transparent"}> 
      <div className="header">
-     <nav className="flex flex-row justify-between lg:justify-center items-center
-   w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[11rem] xl:gap-[23rem]">
+     <nav className="flex flex-row justify-between lg:justify-center  items-center
+   w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[8rem] xl:gap-[23rem]">
 
 
 
@@ -43,7 +43,7 @@ const Nav = () => {
       </div>
      
 
-     <div>
+     <div >
       <Link href='/'>
      <Image src={'/logo.svg'} 
       width={170}
@@ -51,7 +51,7 @@ const Nav = () => {
       alt="logo" />  
       </Link> 
        </div> 
-      <div className="hidden lg:inline-flex
+      <div className="hidden lg:inline-flex mr-[7rem]
        font-lato text-[18px] font-medium flex-row gap-10">
       <Link
       href='/'>
@@ -77,7 +77,7 @@ const Nav = () => {
        Shop
        </Link>
       </div>
-      <div className="font-lato">
+      <div className="font-lato lg:mr-6">
       <ShoppingCart />
       </div>
      </div>

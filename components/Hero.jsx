@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className='overflow-hidden pb-5'>
      <div>
-      <div className='h-[1000px] lg:h-[1700px]'>
+      <div className='h-[900px] lg:h-[1700px]'>
         <Image src={'/hero4.png'}
         width={1720}
         height={1280}
