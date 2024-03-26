@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="pb-[5rem] hidden"> 
+    <section className="pb-[5rem]"> 
      <h5 className="mb-5 text-[30px] md:text-[40px] text-center
       uppercase">Shop By Categories</h5> 
 
@@ -15,85 +15,47 @@ const Category = () => {
       </h5>
       </div>
 
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-7">
-        <div className="group overflow-hidden">
-        <div className="w-[500px] h-[600px] group-hover:scale-110 transition-all duration-500">
-        <div className="absolute">
-      <Image src={'/continental.png'}
-       alt=""
-       width={500}
-       height={600} 
-       className="object-cover w-[500px] h-[600px]"
-      />
-      </div>
-      <div className="relative w-[500px] h-[600px] bg-black/25 
-      flex justify-center items-end group-hover:-translate-y-7 
-     transition-all duration-500">
-        <div className="flex flex-col justify-center items-center 
         
-        ">
-        <h3 className="text-white font-lato text-md">CONTINENTAL VIBE</h3>
-        <Link href='shop'>
-        <button className="bg-black mb-10 mt-5
-    px-5 py-3 border border-xl text-white border-black text-md
-    hover:bg-white hover:text-black">SHOP COLLECTION</button>
-        </Link>
+    <div className="flex flex-col lg:flex-row gap-7 justify-center
+    items-center">
+    <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
+     xl:h-[600px] overflow-hidden">
+        <div className="relative group">
+         <img src="/continental.png" alt=""
+         className="w-[500px] h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
+        </div>
+        <div className="w-full h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
+         <div>
+               Come Home
+         </div>
         </div>
       </div>
+    <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
+     xl:h-[600px] overflow-hidden">
+        <div className="relative">
+         <img src="/continental.png" alt=""
+         className="w-[500px] h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
         </div>
-        </div>
-        <div className="group overflow-hidden">
-        <div className="w-[500px] h-[600px] group-hover:scale-110 transition-all duration-500">
-        <div className="absolute">
-      <Image src={'/casual.png'}
-       alt=""
-       width={500}
-       height={600} 
-       className="object-cover w-[500px] h-[600px]"
-      />
-      </div>
-      <div className="relative w-[500px] h-[600px] bg-black/25 
-      flex justify-center group-hover:-translate-y-7 
-      transition-all duration-500 items-end">
-        <div className="flex flex-col justify-center items-center">
-        <h3 className="text-white font-lato text-md">CASUAL VIBE</h3>
-        <Link href='shop'>
-        <button className="bg-black mb-10 mt-5
-    px-5 py-3 border border-xl text-white border-black text-md
-    hover:bg-white hover:text-black">SHOP COLLECTION</button>
-        </Link>
+        <div className="w-full h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
+         <div>
+               Come Home
+         </div>
         </div>
       </div>
+    <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
+     xl:h-[600px] overflow-hidden">
+        <div className="relative">
+         <img src="/continental.png" alt=""
+         className="w-[500px] h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
         </div>
-        </div>
-        <div className="group overflow-hidden">
-        <div className="w-[500px] h-[600px] group-hover:scale-110 transition-all duration-500">
-        <div className="absolute">
-      <Image src={'/afri.png'}
-       alt=""
-       width={500}
-       height={600} 
-       className="object-cover w-[500px] h-[600px]"
-      />
-      </div>
-      <div className="relative w-[500px] h-[600px] bg-black/25 
-      flex justify-center items-end group-hover:-translate-y-7 
-      transition-all duration-500">
-        <div className="flex flex-col justify-center items-center">
-        <h3 className="text-white font-lato text-md">AFRICAN VIBE</h3>
-        <Link href='shop'>
-        <button className="bg-black mb-10 mt-5
-    px-5 py-3 border border-xl text-white border-black text-md
-    hover:bg-white hover:text-black">SHOP COLLECTION</button>
-        </Link>
+        <div className="w-full h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
+         <div>
+               Come Home
+         </div>
         </div>
       </div>
-        </div>
-        </div>
-      
-      </div>
-        
     
+    </div>
       
       
       </section>
