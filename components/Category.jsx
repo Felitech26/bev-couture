@@ -17,7 +17,7 @@ const Category = () => {
 
         
     <div className="flex flex-col lg:flex-row gap-7 justify-center
-    items-center">
+    items-center px-[5rem]">
     <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
      xl:h-[600px] overflow-hidden">
         <div className="relative group">
