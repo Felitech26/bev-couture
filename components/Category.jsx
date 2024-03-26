@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="pb-[5rem]"> 
+    <section className="pb-[5rem] overflow-hidden"> 
      <h5 className="mb-5 text-[30px] md:text-[40px] text-center
       uppercase">Shop By Categories</h5> 
 
@@ -17,14 +17,14 @@ const Category = () => {
 
         
     <div className="flex flex-col lg:flex-row gap-7 justify-center
-    items-center px-[1rem]">
-    <div className="w-[400px] h-[500px] md:[500px] md:h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
+    items-center">
+    <div className="w-[375px] h-[440px] md:w-[500px] md:h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
      xl:h-[600px] overflow-hidden">
         <div className="relative group">
          <img src="/continental.png" alt=""
-         className="w-[400px] h-[500px] md:w-[500px] md:h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
+         className="w-[375px] h-[440px] md:w-[500px] md:h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
         </div>
-        <div className="w-[400px] h-[500px] md:h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
+        <div className="w-[375px] h-[440px] md:w-[500px] md:h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
          <div>
                Come Home
          </div>
