@@ -17,43 +17,20 @@ const Category = () => {
 
         
     <div className="flex flex-col lg:flex-row gap-7 justify-center
-    items-center px-[5rem]">
-    <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
+    items-center px-[1rem]">
+    <div className="w-[400px] h-[500px] md:[500px] md:h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
      xl:h-[600px] overflow-hidden">
         <div className="relative group">
          <img src="/continental.png" alt=""
-         className="w-[500px] h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
+         className="w-[400px] h-[500px] md:w-[500px] md:h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
         </div>
-        <div className="w-full h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
+        <div className="w-[400px] h-[500px] md:h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
          <div>
                Come Home
          </div>
         </div>
       </div>
-    <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
-     xl:h-[600px] overflow-hidden">
-        <div className="relative">
-         <img src="/continental.png" alt=""
-         className="w-[500px] h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
-        </div>
-        <div className="w-full h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
-         <div>
-               Come Home
-         </div>
-        </div>
-      </div>
-    <div className="w-[500px] h-[600px] lg:w-[350px] lg:h-[400px] xl:w-[500px]
-     xl:h-[600px] overflow-hidden">
-        <div className="relative">
-         <img src="/continental.png" alt=""
-         className="w-[500px] h-[600px] lg:h-[400px] xl:h-[600px]  absolute" />
-        </div>
-        <div className="w-full h-[600px] lg:h-[400px] xl:h-[600px] relative bg-black/30">
-         <div>
-               Come Home
-         </div>
-        </div>
-      </div>
+ 
     
     </div>
       
