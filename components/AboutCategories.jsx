@@ -43,9 +43,6 @@ const AboutCategories = () => {
         </div>
        
       </div>
-     
-     
-
       <div className='flex flex-col  mt-20'>
       <div className='mb-6 px-3 flex justify-center items-center text-accent
       text-[30px] font-light'>
