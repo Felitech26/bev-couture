@@ -8,6 +8,8 @@ const links = [
   {name: 'Shop', path: '/shop'},
   {name: 'About Us', path: '/about'},
   {name: 'Contact', path: '/contact'},
+  {name:  'Sign In', path: '/signin'},
+  {name:  'Sign Up', path: '/signup'},
 
   
 ]

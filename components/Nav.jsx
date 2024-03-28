@@ -66,8 +66,8 @@ const Nav = () => {
        <Link href='/contact'>
        Contact
        </Link>
-       <Link href='/login'>
-        Login
+       <Link href='/signin'>
+       Sign In
        </Link>
       </div>
 
