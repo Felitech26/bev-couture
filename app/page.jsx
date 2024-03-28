@@ -7,7 +7,7 @@ import PopularDress from "@/components/PopularDress";
 
 export default function Home() {
   return (
-    <main className="h-[700vh]"> 
+    <main className="h-[500vh]"> 
     <Hero/>
      <PopularDress />
      <Category />
