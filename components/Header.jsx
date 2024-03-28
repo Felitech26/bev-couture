@@ -17,7 +17,7 @@ const Header  = () => {
       <a className="hidden lg:inline-flex text-[#d6d5d5] flex-row
       justify-center items-center gap-2" 
      href="mailto:Uniteddevelopment83@gmail.com">
-       <IoMail className="text-[#d6d5d5]"/>
+       <IoMail className="text-[#d6d5d5] mt-0.5"/>
       info@bevcouture.com
      </a>
       
