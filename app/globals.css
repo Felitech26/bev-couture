@@ -8,7 +8,8 @@
     @apply box-border;
   }
   body {
-    @apply font-lato font-cormomorantGaramond
+    @apply font-lato font-cormomorantGaramond 
+    
   }
 
 @keyframes slide {
