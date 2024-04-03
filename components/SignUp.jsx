@@ -10,7 +10,7 @@ const SignUp = () => {
  const [password, setPassword] = useState('')
  const [error, setError] = useState('')
 
-const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
 e.preventDefault();
 
 if (!name || !email || !password) {
@@ -18,6 +18,27 @@ if (!name || !email || !password) {
   return;
 }
 
+try {
+ const res = await fetch('api/signup', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      name, email, password
+    }),
+  });
+
+  if (res.ok) {
+    const form = e.target;
+    form.reset();
+  } else {
+    console.log('User registration failed.');
+  }
+
+} catch (error) {
+ console.log('Error during registration: ', error);
+}
 
 
 };
