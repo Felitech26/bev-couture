@@ -5,7 +5,7 @@ import Hero from "@/components/Hero";
 import PopularDress from "@/components/PopularDress";
 
 
-export default function Home() {
+export default function Home () {
   return (
     <main className="h-[500vh]"> 
     <Hero/>

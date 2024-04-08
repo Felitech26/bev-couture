@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import CartProvider from '@/components/CartProvider'
 import { Toaster } from "@/components/ui/toaster";
+import { AuthProvider } from "./Providers";
 
 const lato = Lato ({ subsets: ["latin"], weight:
 ['100', '300', '400','700', '900'],
@@ -23,12 +24,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${lato.variable} ${cormorantGaramond.variable}`}>
+      <AuthProvider>
       <CartProvider>
          <Header />
          {children}
          <Toaster />
          <Footer />
       </CartProvider>
+      </AuthProvider>
+     
       </body>
     </html>
   );
