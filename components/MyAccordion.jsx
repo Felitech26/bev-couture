@@ -21,7 +21,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const MyAccordion = () => {
   return (
-    <Accordion type="single" collapsible className="w-full pl-3 pr-6 text-[#d8d5d5]">
+    <Accordion type="single" collapsible className="w-full pl-3 pr-6 text-[#d8d5d5] md:hidden">
     <AccordionItem value="item-1">
       <AccordionTrigger>Contact</AccordionTrigger>
       <AccordionContent>
@@ -105,28 +105,28 @@ const MyAccordion = () => {
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
-      <AccordionTrigger>Our Offers</AccordionTrigger>
+      <AccordionTrigger>Services</AccordionTrigger>
       <AccordionContent>
       <div className="flex flex-col gap-3 pl-4">
-      <Link href='/' className=" font-lato text-[#8a8a8a] w-[40px]
+      <Link href='/' className=" font-lato text-[#8a8a8a] w-[10px]
       hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <h5>Specials</h5>
+        <h5>Faq</h5>
       </Link>
-       <Link href='/' className=" font-lato text-[#8a8a8a] w-[90px]
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[20px]
        hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <h5>New products</h5>
+        <h5>Shipping</h5>
       </Link>
-       <Link href='/' className=" font-lato text-[#8a8a8a] w-[75px]
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[20px]
        hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <h5> Best sellers</h5>
+        <h5>Tracking</h5>
       </Link>
-       <Link href='/' className=" font-lato text-[#8a8a8a] w-[130px]
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[20px]
        hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <h5>Terms and conditions</h5>
+        <h5>Returns</h5>
       </Link>
-       <Link href='/' className=" font-lato text-[#8a8a8a] w-[100px]
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[70px]
        hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <h5>About Our Shop</h5>
+        <h5>Our Team</h5>
       </Link>
        </div>
       </AccordionContent>

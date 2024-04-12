@@ -21,7 +21,7 @@ module.exports = {
     },
     fontFamily: {
       lato: 'var(--font-lato)',
-      cormomorantGaramond: 'var(--font-cormorantGaramond)'
+      cormomorantGaramond: 'var(--font-cormomorantGaramond)'
     },
     extend: {
       colors: {

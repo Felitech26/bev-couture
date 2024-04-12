@@ -3,7 +3,7 @@
 
 import Link from "next/link"
 
-import { MdMailOutline } from "react-icons/md";
+
 import Image from "next/image";
 import Navlinks from "./Navlinks";
 import ShoppingCart from "./ShoppingCart";
@@ -31,7 +31,7 @@ const Nav = () => {
   },[] )
 
   return (
-    <div className={header ? " w-[100%] transition-all duration-500 fixed bg-[#f3eef2]" : "bg-transparent"}> 
+    <div className={header ? " w-[100%] transition-all duration-500 lg:text-white fixed bg-[#e8e6e6] lg:bg-[#171617]" : "bg-transparent"}> 
      <div className="header">
      <nav className="flex flex-row justify-between lg:justify-center  items-center
    w-full py-3 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[8rem] xl:gap-[23rem]">
