@@ -13,7 +13,7 @@ const Footer = () => {
 
   
   return (
-    <footer className="w-screen bg-[#171617] h-[100vh] md:h-[80vh] bottom-0">
+    <footer className="bg-[#171617] h-[100vh] md:h-[80vh] right-0 bottom-0 left-0">
       <div className="px-3 md:px-10 flex flex-col justify-center items-center">
         <div className="flex md:justify-center items-center py-10 flex-col">
           <Link href='/'>
