@@ -188,21 +188,21 @@ const Footer = () => {
     
 
 <a href="mailto:Uniteddevelopment83@gmail.com" >
-   <CiMail className="text-[30px] relative text-white -right-[19rem] mt-3.5" />
+   <CiMail className="text-[26px] relative text-white -right-[19rem] mt-3.5" />
    </a>
 
         </div>
         <div className="flex flex-row gap-3 mt-[2rem]">
-      <div className="w-[80px] h-[40px] bg-white flex 
-      justify-center items-center px-2">
+      <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px] 
+      bg-white flex justify-center items-center px-2">
       <Image src={'/money.png'}
       width={100}
       height={50}
       alt="" 
       className="w-[80px]"/>
       </div>
-      <div className="w-[80px] h-[40px] bg-white flex 
-      justify-center items-center px-2">
+      <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px]
+       bg-white flex justify-center items-center px-2">
       <Image src={'/visa.png'}
       width={100}
       height={50}
@@ -210,8 +210,8 @@ const Footer = () => {
       className="w-[80px]"/>
       </div>
 
-      <div className="w-[80px] h-[40px] bg-white flex 
-      justify-center items-center px-2 pt-1">
+      <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px]
+       bg-white flex justify-center items-center px-2 pt-1">
       <Image src={'/google.png'}
       width={100}
       height={50}
@@ -219,11 +219,11 @@ const Footer = () => {
       className="w-[80px]"/>
       </div>
       
-      <div className="w-[80px] h-[40px] bg-white flex 
-      justify-center items-center px-2 pt-1">
+      <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px] 
+      bg-white flex justify-center items-center px-2 pt-1">
       <Image src={'/apple-pay.png'}
-      width={50}
-      height={30}
+      width={100}
+      height={50}
       alt="" 
       className="w-[80px]"/>
       </div>
