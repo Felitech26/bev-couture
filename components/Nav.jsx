@@ -7,6 +7,7 @@ import Link from "next/link"
 import Image from "next/image";
 import Navlinks from "./Navlinks";
 import ShoppingCart from "./ShoppingCart";
+import { RxPerson } from "react-icons/rx";
 import { useEffect, useState } from "react";
 
 
@@ -66,9 +67,7 @@ const Nav = () => {
        <Link href='/contact'>
        Contact
        </Link>
-       <Link href='/signin'>
-       Sign In
-       </Link>
+      
       </div>
 
      
@@ -80,8 +79,14 @@ const Nav = () => {
        Shop
        </Link>
       </div>
-      <div className="font-lato lg:mr-6">
+      <div className="flex flex-row gap-5 font-lato lg:mr-6">
+      <Link href='/signin'>
+      <RxPerson className="text-[21px] hidden lg:flex" />
+       </Link>
+        
+      
       <ShoppingCart />
+
       </div>
      </div>
 
