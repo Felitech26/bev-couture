@@ -7,67 +7,157 @@ import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { IoMdGlobe } from "react-icons/io";
 
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
+
 
 
 const Footer = () => {
 
   
   return (
-    <footer className="bg-[#171617] h-[100vh] md:h-[80vh] right-0 bottom-0 left-0">
-      <div className="px-3 md:px-10 flex flex-col justify-center items-center">
-        <div className="flex md:justify-center items-center py-10 flex-col">
-          <Link href='/'>
+     <footer className="w-full h-[80vh] md:h-[120vh] lg:h-[80vh] bg-[#191818] overflow-hidden pt-10 bottom-0">
+      <section className="container mx-auto overflow-hidden">
+      <div className="flex flex-row justify-center items-center pb-[5rem]">
+      <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
+      <Link href='/'>
           <Image src={'/logo.svg'}
           width={200}
           height={150}
-          alt=""/>
+          alt=""
+          />
           </Link>
+          <span className="w-[60px] mt-1 h-[1px] bg-[#666363] font-thin"></span>
+      </div>
+      <div className="grid md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-[2rem]">
+        <div className="hidden md:inline-block">
+          <h5 className="text-[16px] mb-7 font-lato font-semibold text-white">Get in Touch</h5>
+          <div className="flex flex-col gap-3">
+       <a href='/' className="flex flex-row items-center gap-1 w-[280px]
+      text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <CiLocationOn className="text-[15px]"/>
+        <h5 className="font-lato font-bold">5-7 Wembley Hill Rd, Wembley - UK </h5>
+      </a>
+       <a href='/' className="flex flex-row items-center font-lato gap-1 w-[175px]
+      text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <IoCallOutline className="text-[15px]"/>
+        <h5 className="font-lato font-bold">+44 (0) 149 495 6720</h5>
+      </a>
+       <a href='mailto:Uniteddevelopment83@gmail.com' className="flex flex-row 
+       items-center font-lato gap-1 w-[155px] text-[#8a8a8a] 
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <CiMail  className="text-[15px] mt-0.5"/>
+        <h5 className="font-lato font-bold"> info@bevcouture.com</h5>
+      </a>
+       <a href='/' className="flex flex-row items-center font-lato gap-1 w-[155px]
+      text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <IoMdGlobe className="text-[15px]"/>
+        <h5 className="font-lato font-bold">www.bevcouture.com</h5>
+      </a>
+      <div className=" flex flex-row text-[#8a8a8a] gap-3 w-[155px] mt-2">
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaInstagram className="text-[13px]" />
+      </a>
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaXTwitter className="text-[13px]" />
+      </a>
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaFacebookF className="text-[13px]" />
+      </a>
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500 
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaTiktok className="text-[13px]" />
+      </a>
+      </div>
+       </div>
         </div>
-        <div className="flex flex-col justify-center items-center pb-[4rem]">
+        <div className="ml-[5rem] hidden md:inline-block">
+      <h5 className="text-[16px] mb-7 font-lato font-semibold text-white">Services</h5>
+        <div className="flex flex-col gap-3">
+      <Link href='/' className=" font-lato text-[#8a8a8a] w-[10px]
+      hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">FAQ</h5>
+      </Link>
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[20px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Shipping</h5>
+      </Link>
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[20px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Tracking</h5>
+      </Link>
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[20px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Returns</h5>
+      </Link>
+       <Link href='/' className=" font-lato text-[#8a8a8a] w-[70px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Our Team</h5>
+      </Link>
+       </div>
+      </div>
+      <div className="hidden md:inline-block">
+      <h5 className="text-[16px] mb-7 font-lato font-semibold text-white">Services</h5>
+        <div className="flex flex-col gap-3">
+       <a href='/' className=" font-lato text-[#8a8a8a] w-[40px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Specials</h5>
+      </a>
+       <a href='/' className=" font-lato text-[#8a8a8a] w-[110px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold" >New products</h5>
+      </a>
+       <a href='/' className=" font-lato text-[#8a8a8a] w-[90px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold"> Best sellers</h5>
+      </a>
+       <a href='/' className=" font-lato text-[#8a8a8a] w-[160px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Terms and conditions</h5>
+      </a>
+       <a href='/' className=" font-lato text-[#8a8a8a] w-[120px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">Personal Styling </h5>
+      </a>
+       <a href='/' className=" font-lato text-[#8a8a8a] w-[120px]
+       hover:text-accent hover:translate-x-3 transition-all duration-500">
+        <h5 className="font-lato font-bold">About Our Shop</h5>
+      </a>
+      
+       </div>
+      </div>
+      <div className="flex flex-col gap-5">
+       <h5 className="text-[#dddbdb] font-lato font-semibold text-[20px]">
+        Sign up to our Newsletter</h5>
+        <div className="">
         <input 
       type="text" placeholder="Email Address"
       
-      className="border border-solid absolute 
-  py-4 px-5 md:px-[3rem] w-[345px] bg-[#1f1f1f] sm:w-[500px] lg:w-[480px]
-   outline-none border-black/10 text-sm
-   md:text-md  text-accent/60 placeholder:text-accent/60 placeholder:text-md"/>
-
-   <a href="mailto:Uniteddevelopment83@gmail.com" >
-   <CiMail className="text-[20px] md:text-[25px] relative text-accent/60 -right-[9rem] md:-right-[11rem]" />
-   </a>
-
-   </div>
-   <div className="container mx-auto hidden md:inline-block">
-   <div className="flex flex-col gap-3 px-6">
-  <a href='/' className="flex flex-row items-center font-lato gap-1 w-[290px]
-      text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <CiLocationOn className="text-[15px]"/>
-        <h5>5-7 Wembley Hill Rd, Wembley - UK </h5>
-      </a>
-       <a href='/' className="flex flex-row items-center font-lato gap-1 w-[200px]
-      text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <IoCallOutline className="text-[15px]"/>
-        <h5>+44 (0) 149 495 6720</h5>
-      </a>
-       <a href='mailto:Uniteddevelopment83@gmail.com' className="flex flex-row 
-       items-center font-lato gap-1 w-[200px] text-[#8a8a8a] 
-       hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <CiMail  className="text-[15px] mt-0.5"/>
-        <h5> info@bevcouture.com</h5>
-      </a>
-       <a href='/' className="flex flex-row items-center font-lato gap-1 w-[200px]
-      text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
-        <IoMdGlobe className="text-[15px]"/>
-        <h5>www.bevcouture.com</h5>
-      </a>
-  </div>
-   </div>
-   
-    
+      className="border border-solid 
+  py-3 px-3 md:px-[2rem] w-[345px] bg-[#dddbdb]  lg:w-[380px]
+   outline-none border-black/10 text-lg
+   md:text-md text-black placeholder:text-black placeholder:text-md"/>
+        </div>
+        </div>
       </div>
+     <div>
       
-      <MyAccordion />
-      </footer>
+     </div>
+      </section>
+     </footer>
   )
 }
 
