@@ -18,13 +18,13 @@ const Footer = () => {
 
   
   return (
-     <footer className="w-full h-[100vh] md:h-[120vh] lg:h-[80vh] bg-[#191818] overflow-hidden pt-10 bottom-0">
+     <footer className="w-full h-[100vh] md:h-[120vh] lg:h-[80vh] bg-[#191818] overflow-hidden pt-7 bottom-0">
       <section className="container mx-auto overflow-hidden">
-      <div className="flex flex-row justify-center items-center pb-[5rem]">
+      <div className="flex flex-row justify-center items-center pb-[3rem]">
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
       <Link href='/'>
           <Image src={'/logo.svg'}
-          width={180}
+          width={170}
           height={150}
           alt=""
           />
