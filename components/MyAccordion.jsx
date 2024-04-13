@@ -21,11 +21,11 @@ import { FaTiktok } from "react-icons/fa";
 
 const MyAccordion = () => {
   return (
-    <Accordion type="single" collapsible className="w-full pl-3 pr-6 text-[#d8d5d5] md:hidden">
+    <Accordion type="single" collapsible className="w-full text-[#d8d5d5] md:hidden">
     <AccordionItem value="item-1">
       <AccordionTrigger>Contact</AccordionTrigger>
       <AccordionContent>
-       <div className="flex flex-col gap-3 pl-4">
+       <div className="flex flex-col gap-3">
        <a href='/' className="flex flex-row items-center font-lato gap-1 w-[240px]
       text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
         <CiLocationOn className="text-[15px]"/>
@@ -79,7 +79,7 @@ const MyAccordion = () => {
     <AccordionItem value="item-2">
       <AccordionTrigger>Information</AccordionTrigger>
       <AccordionContent>
-      <div className="flex flex-col gap-3 pl-4">
+      <div className="flex flex-col gap-3">
        <a href='/' className=" font-lato text-[#8a8a8a] w-[40px]
        hover:text-accent hover:translate-x-3 transition-all duration-500">
         <h5>Specials</h5>
@@ -107,7 +107,7 @@ const MyAccordion = () => {
     <AccordionItem value="item-3">
       <AccordionTrigger>Services</AccordionTrigger>
       <AccordionContent>
-      <div className="flex flex-col gap-3 pl-4">
+      <div className="flex flex-col gap-3">
       <Link href='/' className=" font-lato text-[#8a8a8a] w-[10px]
       hover:text-accent hover:translate-x-3 transition-all duration-500">
         <h5>Faq</h5>
@@ -134,7 +134,7 @@ const MyAccordion = () => {
     <AccordionItem value="item-4">
       <AccordionTrigger>Your Account</AccordionTrigger>
       <AccordionContent>
-      <div className="flex flex-col gap-3 pl-4">
+      <div className="flex flex-col gap-3">
       <a href='/' className=" font-lato text-[#8a8a8a]
       hover:text-accent hover:translate-x-3 transition-all duration-500">
         <h5>Addresses</h5>

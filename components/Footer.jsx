@@ -139,7 +139,7 @@ const Footer = () => {
       
        </div>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col mb-6 md:mb-0 gap-5">
        <h5 className="text-[#dddbdb] font-lato font-semibold text-[20px]">
         Sign up to our Newsletter</h5>
         <div className="">
@@ -153,6 +153,10 @@ const Footer = () => {
         </div>
         </div>
       </div>
+      <div className="md:hidden">
+      <MyAccordion />
+      </div>
+      
      <div>
       
      </div>
