@@ -18,7 +18,7 @@ const Footer = () => {
 
   
   return (
-     <footer className="w-full h-[80vh] md:h-[120vh] lg:h-[80vh] bg-[#191818] overflow-hidden pt-10 bottom-0">
+     <footer className="w-full h-[100vh] md:h-[120vh] lg:h-[80vh] bg-[#191818] overflow-hidden pt-10 bottom-0">
       <section className="container mx-auto overflow-hidden">
       <div className="flex flex-row justify-center items-center pb-[5rem]">
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
