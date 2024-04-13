@@ -1,7 +1,7 @@
 'use client'
 
 
-import Link from "next/link";
+
 import { BsBagDash } from "react-icons/bs";
 import CartSidebar from "./CartSidebar";
 import { useShoppingCart } from "use-shopping-cart";
@@ -13,7 +13,7 @@ const ShoppingCart = () => {
   return (
   
       <div >
-        <div className="text-[20px] cursor-pointer relative">
+        <div className="text-[21px] cursor-pointer relative">
 
         <BsBagDash onClick={() => handleCartClick()} />
         <div

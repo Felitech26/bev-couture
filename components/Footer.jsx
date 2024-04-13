@@ -31,7 +31,7 @@ const Footer = () => {
           </Link>
           <span className="w-[60px] mt-1 h-[1px] bg-[#666363] font-thin"></span>
       </div>
-      <div className="grid md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-[2rem]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 md:gap-[4rem]">
         <div className="hidden md:inline-block">
           <h5 className="text-[16px] mb-7 font-lato font-semibold text-white">Get in Touch</h5>
           <div className="flex flex-col gap-3">
@@ -139,17 +139,51 @@ const Footer = () => {
       
        </div>
       </div>
-      <div className="flex flex-col mb-6 md:mb-0 gap-5">
+      <div className=" flex flex-row md:hidden mb-5 text-[#8a8a8a] gap-3 w-[155px] mt-2">
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaInstagram className="text-[13px]" />
+      </a>
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaXTwitter className="text-[13px]" />
+      </a>
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaFacebookF className="text-[13px]" />
+      </a>
+      <a href="/" className="px-3 py-3 border border-sm rounded-full 
+      transition-all duration-500 
+      hover:text-accent hover:border-accent
+       text-[#8a8a8a] border-[#8a8a8a]">
+      <FaTiktok className="text-[13px]" />
+      </a>
+      </div>
+      <div className="flex flex-col mb-8 md:mb-0 gap-5">
        <h5 className="text-[#dddbdb] font-lato font-semibold text-[20px]">
         Sign up to our Newsletter</h5>
-        <div className="">
-        <input 
+        <div >
+          <div >
+          <input 
       type="text" placeholder="Email Address"
       
-      className="border border-solid 
-  py-3 px-3 md:px-[2rem] w-[345px] bg-[#dddbdb]  lg:w-[380px]
+      className="border border-solid absolute 
+  py-3 px-3 md:px-[2rem] w-[345px] bg-[#b6b6b6]  lg:w-[380px]
    outline-none border-black/10 text-lg
    md:text-md text-black placeholder:text-black placeholder:text-md"/>
+          </div>
+    
+
+<a href="mailto:Uniteddevelopment83@gmail.com" >
+   <CiMail className="text-[30px] relative text-black -right-[19rem] mt-3.5" />
+   </a>
+
         </div>
         </div>
       </div>
