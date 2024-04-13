@@ -18,9 +18,9 @@ const Footer = () => {
 
   
   return (
-     <footer className="w-full h-[100vh] md:h-[120vh] lg:h-[80vh] bg-[#191818] overflow-hidden pt-7 bottom-0">
+     <footer className="w-full h-[100vh] md:h-[120vh] lg:h-[105vh] xl:h-[70vh] bg-[#191818] overflow-hidden pt-7 bottom-0">
       <section className="container mx-auto overflow-hidden">
-      <div className="flex flex-row justify-center items-center pb-[3rem]">
+      <div className="flex flex-row justify-center items-center pb-[4rem]">
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
       <Link href='/'>
           <Image src={'/logo.svg'}
@@ -139,7 +139,8 @@ const Footer = () => {
       
        </div>
       </div>
-      <div className=" flex flex-row md:hidden mb-5 text-[#8a8a8a] gap-3 w-[155px] mt-2">
+      <div className="flex flex-row md:hidden mb-5 text-[#8a8a8a] 
+     justify-center items-center gap-3 mt-2">
       <a href="/" className="px-3 py-3 border border-sm rounded-full 
       transition-all duration-500
       hover:text-accent hover:border-accent
@@ -165,35 +166,79 @@ const Footer = () => {
       <FaTiktok className="text-[13px]" />
       </a>
       </div>
-      <div className="flex flex-col mb-8 md:mb-0 gap-5">
-       <h5 className="text-[#dddbdb] font-lato font-semibold text-[20px]">
+       
+      <div className="md:hidden">
+      <MyAccordion />
+      </div>
+
+      <div className="flex flex-col mt-5 md:mt-0 gap-3">
+       <h5 className="text-[#dddbdb] font-medium 
+      font-cormomorantGaramond text-[20px]">
         Sign up to our Newsletter</h5>
         <div >
           <div >
           <input 
-      type="text" placeholder="Email Address"
+      type="email" placeholder="Email Address"
       
       className="border border-solid absolute 
-  py-3 px-3 md:px-[2rem] w-[345px] bg-[#b6b6b6]  lg:w-[380px]
-   outline-none border-black/10 text-lg
-   md:text-md text-black placeholder:text-black placeholder:text-md"/>
+  py-3 px-3 md:px-[2rem] w-[345px] bg-[#121111] lg:w-[380px] 
+   outline-none border-[#141313] text-lg placeholder:font-cormomorantGaramond
+   md:text-md text-white placeholder:text-white  placeholder:text-md"/>
           </div>
     
 
 <a href="mailto:Uniteddevelopment83@gmail.com" >
-   <CiMail className="text-[30px] relative text-black -right-[19rem] mt-3.5" />
+   <CiMail className="text-[30px] relative text-white -right-[19rem] mt-3.5" />
    </a>
 
         </div>
-        </div>
+        <div className="flex flex-row gap-3 mt-[2rem]">
+      <div className="w-[80px] h-[40px] bg-white flex 
+      justify-center items-center px-2">
+      <Image src={'/money.png'}
+      width={100}
+      height={50}
+      alt="" 
+      className="w-[80px]"/>
       </div>
-      <div className="md:hidden">
-      <MyAccordion />
+      <div className="w-[80px] h-[40px] bg-white flex 
+      justify-center items-center px-2">
+      <Image src={'/visa.png'}
+      width={100}
+      height={50}
+      alt="" 
+      className="w-[80px]"/>
+      </div>
+
+      <div className="w-[80px] h-[40px] bg-white flex 
+      justify-center items-center px-2 pt-1">
+      <Image src={'/google.png'}
+      width={100}
+      height={50}
+      alt="" 
+      className="w-[80px]"/>
       </div>
       
-     <div>
+      <div className="w-[80px] h-[40px] bg-white flex 
+      justify-center items-center px-2 pt-1">
+      <Image src={'/apple-pay.png'}
+      width={50}
+      height={30}
+      alt="" 
+      className="w-[80px]"/>
+      </div>
       
+   
+     
+    
      </div>
+        </div>
+        
+      </div>
+
+      
+      
+     
       </section>
      </footer>
   )
