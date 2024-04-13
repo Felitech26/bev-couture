@@ -24,7 +24,7 @@ const Footer = () => {
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
       <Link href='/'>
           <Image src={'/logo.svg'}
-          width={200}
+          width={180}
           height={150}
           alt=""
           />
