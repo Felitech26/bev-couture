@@ -18,9 +18,10 @@ const Footer = () => {
 
   
   return (
-     <footer className="w-full h-[100vh] md:h-[120vh] lg:h-[105vh] xl:h-[70vh] bg-[#191818] overflow-hidden pt-7 bottom-0">
+     <footer className="w-full h-[110vh] md:h-[110vh] lg:h-[105vh] xl:h-[70vh]
+      bg-[#191818] overflow-hidden pt-7 bottom-0">
       <section className="container mx-auto overflow-hidden">
-      <div className="flex flex-row justify-center items-center pb-[4rem]">
+      <div className="flex flex-row justify-center items-center pb-[3rem]">
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
       <Link href='/'>
           <Image src={'/logo.svg'}
@@ -140,7 +141,7 @@ const Footer = () => {
        </div>
       </div>
       <div className="flex flex-row md:hidden mb-5 text-[#8a8a8a] 
-     justify-center items-center gap-3 mt-2">
+     gap-3">
       <a href="/" className="px-3 py-3 border border-sm rounded-full 
       transition-all duration-500
       hover:text-accent hover:border-accent
@@ -167,7 +168,7 @@ const Footer = () => {
       </a>
       </div>
        
-      <div className="md:hidden">
+      <div className="md:hidden mb-[2rem]">
       <MyAccordion />
       </div>
 
@@ -190,9 +191,8 @@ const Footer = () => {
 <a href="mailto:Uniteddevelopment83@gmail.com" >
    <CiMail className="text-[26px] relative text-white -right-[19rem] mt-3.5" />
    </a>
-
-        </div>
-        <div className="flex flex-row gap-3 mt-[2rem]">
+    </div>
+      <div className="flex flex-row gap-3 mt-[2rem]">
       <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px] 
       bg-white flex justify-center items-center px-2">
       <Image src={'/money.png'}
@@ -227,18 +227,10 @@ const Footer = () => {
       alt="" 
       className="w-[80px]"/>
       </div>
-      
-   
-     
-    
      </div>
         </div>
         
       </div>
-
-      
-      
-     
       </section>
      </footer>
   )

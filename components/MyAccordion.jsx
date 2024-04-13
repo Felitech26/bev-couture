@@ -29,7 +29,7 @@ const MyAccordion = () => {
        <a href='/' className="flex flex-row items-center font-lato gap-1 w-[240px]
       text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
         <CiLocationOn className="text-[15px]"/>
-        <h5>5-7 Wembley Hill Rd, Wembley - UK </h5>
+        <h5 className="font-medium">5-7 Wembley Hill Rd, Wembley - UK </h5>
       </a>
        <a href='/' className="flex flex-row items-center font-lato gap-1 w-[155px]
       text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
@@ -40,7 +40,7 @@ const MyAccordion = () => {
        items-center font-lato gap-1 w-[155px] text-[#8a8a8a] 
        hover:text-accent hover:translate-x-3 transition-all duration-500">
         <CiMail  className="text-[15px] mt-0.5"/>
-        <h5> info@bevcouture.com</h5>
+        <h5 > info@bevcouture.com</h5>
       </a>
        <a href='/' className="flex flex-row items-center font-lato gap-1 w-[155px]
       text-[#8a8a8a] hover:text-accent hover:translate-x-3 transition-all duration-500">
