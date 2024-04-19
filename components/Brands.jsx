@@ -13,27 +13,16 @@ import {
 
 const Brands = () => {
   return (
-    <section className='lg:container px-3 mx-auto py-[5rem]'>
+    <section className='container mx-auto py-[5rem]'>
 
 <Carousel>
   <CarouselContent>
     <CarouselItem>
-
-      <div className='flex flex-row justify-center items-center
-      gap-[1rem]'>
       <Image src={'/Elle.png'} 
       width={150}
       height={150}
       alt='elle'
       />
-       <Image src={'/Bbc.png'} 
-      width={150}
-      height={150}
-      alt='elle'
-      className='mb-2'/>
-      </div>
-      
-      
       </CarouselItem>
     <CarouselItem>
      </CarouselItem>
