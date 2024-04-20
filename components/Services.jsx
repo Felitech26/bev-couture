@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-   <section className='container mx-auto py-[5rem] overflow-hidden'>
+   <section className='w-full py-5 overflow-hidden'>
     <div className='container flex flex-row justify-center gap-10'>
     <div className='flex flex-col justify-center items-center gap-6'>
 

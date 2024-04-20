@@ -15,7 +15,7 @@ const Brands = () => {
   return (
     <section className='container mx-auto py-5 overflow-hidden'>
 
-<div className='md:hidden'>
+<div className='hidden'>
 <Carousel>
   <CarouselContent>
     <CarouselItem>
@@ -52,7 +52,8 @@ const Brands = () => {
 
 
 <h5 className='text-center text-[30px]'>Feautured On </h5>
-   <div className='flex flex-row justify-center items-center gap-[5rem]'>
+   <div className='container grid grid-cols-2 md:grid-cols-4 justify-center
+    items-center gap-4'>
    <Image src={'/Forbes.png'} 
       width={150}
       height={150}
