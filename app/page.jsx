@@ -10,9 +10,10 @@ export default function Home () {
     <main className="h-[500vh] md:h-[600vh]"> 
     <Hero/>
      <PopularDress />
-     <Brands />
-     <Category />
      <Services />
+     <Category />
+     <Brands />
+     
     
     </main>
   );

@@ -13,8 +13,9 @@ import {
 
 const Brands = () => {
   return (
-    <section className='container mx-auto py-[5rem]'>
+    <section className='container mx-auto py-5 overflow-hidden'>
 
+<div className='md:hidden'>
 <Carousel>
   <CarouselContent>
     <CarouselItem>
@@ -46,7 +47,36 @@ const Brands = () => {
   <CarouselPrevious />
   <CarouselNext />
 </Carousel>
+</div>
+
+
+
+<h5 className='text-center text-[30px]'>Feautured On </h5>
+   <div className='flex flex-row justify-center items-center gap-[5rem]'>
+   <Image src={'/Forbes.png'} 
+      width={150}
+      height={150}
+      alt='elle'
+      />   
+   <Image src={'/Elle.png'} 
+      width={150}
+      height={150}
+      alt='elle'
+      />   
+
+   <Image src={'/Bbc.png'} 
+      width={150}
+      height={150}
+      alt='elle'
+      className='mb-2'
+      />  
+
+<Image src={'/Vogue.png'} 
+      width={150}
+      height={150}
+      alt='elle'/>
     
+    </div> 
       
     </section>
    
