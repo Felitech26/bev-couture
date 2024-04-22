@@ -11,33 +11,6 @@
   @apply font-cormomorantGaramond font-lato
     
   }
-
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-}
-.logos{
-  overflow: hidden;
-  padding: 40px 0;
-  white-space: nowrap;
-  background: rgb(255, 255, 255);
-}
-
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-  
-.logos-slide {
- display: inline-block;
- animation: 5s slide infinite linear;
-}
-
-
-
   h1 {
     @apply text-5xl md:text-[80px] leading-none;
   }
