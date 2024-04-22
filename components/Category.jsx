@@ -20,7 +20,7 @@ const Category = () => {
    <div className="flex flex-col lg:flex-row gap-7 justify-center
    items-center lg:px-1">
    <div className="w-[375px] h-[460px] md:w-[500px] md:h-[600px] 
-   lg:w-[350px] lg:h-[400px] xl:w-[500px] xl:h-[600px] overflow-hidden">
+   lg:w-[350px] lg:h-[400px] xl:w-[500px] xl:h-[600px] rounded-lg overflow-hidden">
        <div className="relative group">
         <div className="group-hover:scale-110 transition-all duration-500">
         <img src="/continental.png" alt=""

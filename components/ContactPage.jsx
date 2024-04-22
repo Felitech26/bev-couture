@@ -163,9 +163,9 @@ const ContactPage = () => {
     </div>
 
     <div className="mt-10 hidden xl:inline-block">
-      <h1 className="">Welcome To</h1>
-      <h1>  <span className="text-accent">Bev </span>Couture</h1>
-      <h3 className="mt-2 mb-3 text-[30px]">Our Scocials</h3>
+      <h1 className="font-cormomorantGaramond">Welcome To</h1>
+      <h1 className="font-cormomorantGaramond">  <span className="text-accent">Bev </span>Couture</h1>
+      <h3 className="mt-2 mb-3 text-[30px] font-cormomorantGaramond">Our Scocials</h3>
       <div className=" flex flex-row text-[23px] text-accent gap-3">
        <FaInstagram />
        <FaXTwitter />

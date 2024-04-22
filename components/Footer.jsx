@@ -194,7 +194,7 @@ const Footer = () => {
     </div>
       <div className="flex flex-row gap-3 mt-[2rem]">
       <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px] 
-      bg-white flex justify-center items-center px-2">
+      bg-white flex justify-center items-center px-2 rounded-sm">
       <Image src={'/money.png'}
       width={100}
       height={50}
@@ -202,7 +202,7 @@ const Footer = () => {
       className="w-[80px]"/>
       </div>
       <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px]
-       bg-white flex justify-center items-center px-2">
+       bg-white flex justify-center items-center px-2 rounded-sm">
       <Image src={'/visa.png'}
       width={100}
       height={50}
@@ -211,7 +211,7 @@ const Footer = () => {
       </div>
 
       <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px]
-       bg-white flex justify-center items-center px-2 pt-1">
+       bg-white flex justify-center items-center px-2 pt-1 rounded-sm">
       <Image src={'/google.png'}
       width={100}
       height={50}
@@ -220,7 +220,7 @@ const Footer = () => {
       </div>
       
       <div className="w-[45px] h-[30px] md:w-[80px] md:h-[40px] 
-      bg-white flex justify-center items-center px-2 pt-1">
+      bg-white flex justify-center items-center px-2 pt-1 rounded-sm">
       <Image src={'/apple-pay.png'}
       width={100}
       height={50}

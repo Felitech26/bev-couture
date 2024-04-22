@@ -11,8 +11,9 @@ export default function Home () {
     <Hero/>
      <PopularDress />
      <Services />
-     <Category />
      <Brands />
+     <Category />
+     
      
     
     </main>
