@@ -3,11 +3,12 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="pb-[5rem] overflow-hidden"> 
-    <h5 className="mb-5 text-[30px] hidden md:text-[40px] text-center
+    <section className="py-[5rem] overflow-hidden"> 
+    <h5 className="mb-5 text-[30px] md:text-[40px] text-center 
+    font-cormomorantGaramond
      uppercase">Shop By Categories</h5> 
 
-     <div className="hidden justify-center items-center">
+     <div className="flex justify-center items-center">
      <h5 className="mb-10 px-2 font-lato text-md w-[600px] text-center">
        You will surely have something spectacular to wear, Just choose through 
        the varieties for your taste. Bev Couture has different range of classy 

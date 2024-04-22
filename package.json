@@ -9,10 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.16.6",
-    "@kinde-oss/kinde-auth-nextjs": "^2.1.13",
-    "@phosphor-icons/react": "^2.0.15",
-    "@prisma/client": "^5.11.0",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-label": "^2.0.2",
@@ -23,7 +19,6 @@
     "@radix-ui/react-toast": "^1.1.5",
     "@sanity/image-url": "^1.0.2",
     "@stripe/stripe-js": "^3.0.0",
-    "@types/google.maps": "^3.55.4",
     "bcryptjs": "^2.4.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",

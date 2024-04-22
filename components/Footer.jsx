@@ -18,8 +18,8 @@ const Footer = () => {
 
   
   return (
-     <footer className="w-full h-[110vh] md:h-[110vh] lg:h-[105vh] xl:h-[70vh]
-      bg-[#191818] overflow-hidden pt-7 bottom-0">
+     <footer className="w-full h-[110vh] md:h-[110vh] relative lg:h-[105vh] xl:h-[70vh]
+      bg-[#0a0a0a] overflow-hidden pt-7 bottom-0">
       <section className="container mx-auto overflow-hidden">
       <div className="flex flex-row justify-center items-center pb-[3rem]">
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
