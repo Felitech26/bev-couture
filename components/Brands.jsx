@@ -13,7 +13,7 @@ font-bold'>Feautures</h5>
    <Image src={'/Forbes.png'} 
       width={150}
       height={150}
-      alt='elle'
+      alt='forbes'
       className='w-[70px] md:w-[100px] lg:w-[150px]'
       />   
    <Image src={'/Elle.png'} 
@@ -26,7 +26,7 @@ font-bold'>Feautures</h5>
    <Image src={'/Bbc.png'} 
       width={150}
       height={150}
-      alt='elle'
+      alt='bbc'
       className='w-[75px] md:w-[100px] lg:w-[150px] mb-1'
       
       />  
@@ -34,7 +34,7 @@ font-bold'>Feautures</h5>
 <Image src={'/Vogue.png'} 
       width={150}
       height={150}
-      alt='elle'
+      alt='vogue'
       className='w-[75px] md:w-[100px] lg:w-[150px]'
       />
       
