@@ -14,20 +14,20 @@ font-bold'>Feautures</h5>
       width={150}
       height={150}
       alt='elle'
-      className='w-[70px]'
+      className='w-[80px] md:w-[100px] lg:w-[150px]'
       />   
    <Image src={'/Elle.png'} 
       width={150}
       height={150}
       alt='elle'
-      className='w-[70px]'
+      className='w-[80px] md:w-[100px] lg:w-[150px]'
       />   
 
    <Image src={'/Bbc.png'} 
       width={150}
       height={150}
       alt='elle'
-      className='w-[70px]'
+      className='w-[80px] md:w-[100px] lg:w-[150px] mb-1'
       
       />  
 
@@ -35,7 +35,7 @@ font-bold'>Feautures</h5>
       width={150}
       height={150}
       alt='elle'
-      className='w-[70px]'
+      className='w-[80px] md:w-[100px] lg:w-[150px]'
       />
       
     </div> 
