@@ -17,7 +17,7 @@ const Services = () => {
 
 
 
-<div className='flex flex-col justify-center items-center leading-tight'>
+<div className='flex flex-col justify-center items-center mb-[8rem] leading-tight'>
   <h5 className='text-[35px] md:text-[70px] lg xl:w-[500px] font-cormomorantGaramond uppercase'>
   A Story of Craft
   </h5>

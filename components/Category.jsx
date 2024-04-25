@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="py-[5rem] overflow-hidden"> 
+    <section className="pb-[10rem] overflow-hidden"> 
     <h5 className="mb-5 text-[30px] md:text-[40px] text-center 
     font-cormomorantGaramond
      uppercase">Shop By Categories</h5> 
