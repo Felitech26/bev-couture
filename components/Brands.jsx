@@ -4,8 +4,8 @@ import React from 'react'
 
 const Brands = () => {
   return (
-    <section className='py-3 md:py-[5rem] overflow-hidden'>
-      <h5 className='mb-3 lg::mb-5 font-cormomorantGaramond font-medium text-[20px] md:text-[30px]
+    <section className='pt-3 pb-9 md:py-[5rem] overflow-hidden'>
+      <h5 className='mb-5 lg::mb-7 font-cormomorantGaramond font-medium text-[20px] md:text-[30px]
       text-center'>Featured On</h5>
  <div className="w-full h-[1px] bg-[#000000] font-thin"></div>
     <div className='flex space-x-[21rem] lg:space-x-[25rem] overflow-hidden'>

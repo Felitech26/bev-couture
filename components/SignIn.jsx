@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image'
 import React from "react"
 import { useState } from "react"
 import { signIn } from "next-auth/react";
@@ -37,7 +38,16 @@ const SignIn = () => {
   }
 
   return (
-    <div className="h-screen py-[10rem]">
+    <div>
+      <div className='max-w-full h-screen overflow-hidden absolute'>
+      <Image src={'/login3.png'}
+      width={1700}
+      height={500}
+      priority
+      alt=''
+      className='w- h-screen object-cover ' />
+      </div>
+    <div className="h-screen py-[15rem] relative">
     <div className="flex justify-center">
     <div className="flex flex-col">
       <h5 className="text-4xl font-semibold mb-5">Sign In</h5>
@@ -45,11 +55,11 @@ const SignIn = () => {
        className="grid place-content-center gap-4">
       <input onChange={(e) => setEmail(e.target.value)}
       type="text" placeholder="Email" className="border border-solid
-  py-3 px-4 w-[345px] sm:w-[500px] lg:w-[420px] outline-none border-black/50
+  py-3 px-4 w-[345px] bg-transparent sm:w-[500px] lg:w-[420px] outline-none border-black/50
    text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
       <input  onChange={(e) => setPassword(e.target.value)}
       type="password" placeholder="Password" className="border border-solid
-  py-3 px-4 w-[345px] sm:w-[500px] lg:w-[420px] outline-none border-black/50
+  py-3 px-4 w-[345px] sm:w-[500px] bg-transparent lg:w-[420px] outline-none border-black/50
    text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
 
 <button className="bg-black mt-[2rem]
@@ -79,6 +89,7 @@ const SignIn = () => {
     </div>
     </div>
    
+  </div>
   </div>
 
   )

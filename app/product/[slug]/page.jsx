@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getSizeName } from '@/lib/utils';
 import { IoStarOutline } from "react-icons/io5";
+import { IoStarSharp } from "react-icons/io5";
 
 import AddToCartBtn from '@/components/AddToCartBtn';
 
@@ -62,17 +63,17 @@ const ProductDetails = async ({params}) => {
                 </button>
               ))}
              </div>
-             <div className='flex flex-row gap-2 mt-5'>
+             <div className='flex flex-row gap-4 mt-5'>
              <div className='flex flex-row gap-1 mt-1 text-[#f23c82]'>
-             <IoStarOutline size={20} />
-             <IoStarOutline size={20} />
-             <IoStarOutline size={20} />
-             <IoStarOutline size={20} />
+             <IoStarSharp size={20} />
+             <IoStarSharp size={20} />
+             <IoStarSharp size={20} />
+             <IoStarSharp size={20} />
              <IoStarOutline size={20} />
              </div>
              <div className='flex flex-row text-[18px] gap-1'>
-              <h5>0</h5>
-              <h5>Reviews</h5>
+              <h5 className='font-lato'>5</h5>
+              <h5 className='font-lato'>Reviews</h5>
              </div>
              </div>
              
@@ -86,7 +87,7 @@ const ProductDetails = async ({params}) => {
               price={bevs.price}/>
              </div>
 
-             <div className='mt-3'>
+             <div className='mt-6'>
               <h5 className='text-[#605f5f]'>
                 {bevs.description}
               </h5>

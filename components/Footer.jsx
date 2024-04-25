@@ -1,4 +1,6 @@
 
+
+import { RiCopyrightLine } from "react-icons/ri";
 import MyAccordion from "./MyAccordion";
 import Link from "next/link"
 import Image from "next/image";
@@ -235,8 +237,15 @@ const Footer = () => {
       </section>
       <div className="flex flex-col justify-end place-content-baseline">
       <div className="w-full h-[1px] bg-[#151414] font-thin"></div>
-      <h5 className="text-[#666363] text-[15px] font-lato font-semibold text-center py-4">
-        All Rights Reserved || Bev Couture 2024</h5>
+      <div className="flex flex-row justify-center items-center gap-1 py-4">
+      <RiCopyrightLine className="text-[#666363]"/>
+      <h5 className="text-[#666363] text-[15px] font-lato font-semibold">2024</h5>
+      <h5 className="text-[#666363] text-[15px] font-lato font-semibold">
+      Bev Couture || All Rights Reserved</h5>
+      
+      
+      </div>
+      
       <div className="w-full h-[1px] bg-[#151414] bottom-0 font-thin"></div>
       </div>
      </footer>

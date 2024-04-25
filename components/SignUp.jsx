@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import Link from "next/link"
 import { useState } from "react"
 import { useRouter } from "next/navigation"
@@ -66,7 +67,16 @@ if (user) {
 
 
   return (
-    <div className="h-screen py-[10rem]">
+    <div>
+    <div className='max-w-full h-screen overflow-hidden absolute'>
+      <Image src={'/login3.png'}
+      width={1700}
+      height={500}
+      priority
+      alt=''
+      className='w- h-screen object-cover' />
+      </div>
+    <div className="h-screen py-[15rem] relative">
     <div className="flex justify-center">
     <div className="flex flex-col">
       <h5 className="text-4xl font-semibold mb-5">Sign Up</h5>
@@ -117,6 +127,7 @@ if (user) {
     </div>
     </div>
    
+  </div>
   </div>
 
   )
