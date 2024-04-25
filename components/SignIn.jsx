@@ -50,21 +50,21 @@ const SignIn = () => {
     <div className="h-screen py-[15rem] relative">
     <div className="flex justify-center">
     <div className="flex flex-col">
-      <h5 className="text-4xl font-semibold mb-5">Sign In</h5>
+      <h5 className="text-3xl md:text-4xl font-semibold mb-[2rem] text-center">Sign In</h5>
       <form onSubmit={handleSubmit} 
        className="grid place-content-center gap-4">
       <input onChange={(e) => setEmail(e.target.value)}
       type="text" placeholder="Email" className="border border-solid
-  py-3 px-4 w-[345px] sm:w-[500px] lg:w-[420px] outline-none border-black/50
+  py-3 px-4 w-[345px] sm:w-[500px] bg-transparent lg:w-[420px] outline-none border-black/50
    text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
       <input  onChange={(e) => setPassword(e.target.value)}
       type="password" placeholder="Password" className="border border-solid
-  py-3 px-4 w-[345px] sm:w-[500px] lg:w-[420px] outline-none border-black/50
+  py-3 px-4 w-[345px] sm:w-[500px] bg-transparent lg:w-[420px] outline-none border-black/50
    text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
 
 <button className="bg-black mt-[2rem]
   px-3 py-3 border border-xl text-white border-black text-[20px]
-  hover:bg-white hover:text-black">Sign In</button>
+  hover:bg-transparent hover:text-black">Sign In</button>
  {error && (
   <div className="border border-solid w-fit text-sm 
    py-2 px-3 rounded-sm">{error}</div>
