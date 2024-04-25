@@ -40,7 +40,7 @@ const SignIn = () => {
   return (
     <div>
       <div className='max-w-full h-screen overflow-hidden absolute'>
-      <Image src={'/login3.png'}
+      <Image src={'/login4.png'}
       width={1700}
       height={500}
       priority
@@ -55,11 +55,11 @@ const SignIn = () => {
        className="grid place-content-center gap-4">
       <input onChange={(e) => setEmail(e.target.value)}
       type="text" placeholder="Email" className="border border-solid
-  py-3 px-4 w-[345px] bg-transparent sm:w-[500px] lg:w-[420px] outline-none border-black/50
+  py-3 px-4 w-[345px] sm:w-[500px] lg:w-[420px] outline-none border-black/50
    text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
       <input  onChange={(e) => setPassword(e.target.value)}
       type="password" placeholder="Password" className="border border-solid
-  py-3 px-4 w-[345px] sm:w-[500px] bg-transparent lg:w-[420px] outline-none border-black/50
+  py-3 px-4 w-[345px] sm:w-[500px] lg:w-[420px] outline-none border-black/50
    text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
 
 <button className="bg-black mt-[2rem]
