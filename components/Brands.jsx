@@ -4,7 +4,10 @@ import React from 'react'
 
 const Brands = () => {
   return (
-    <section className='py-5 overflow-hidden'>
+    <section className='py-3 md:py-[5rem] overflow-hidden'>
+      <h5 className='mb-3 lg::mb-5 font-cormomorantGaramond font-medium text-[20px] md:text-[30px]
+      text-center'>Featured On</h5>
+ <div className="w-full h-[1px] bg-[#000000] font-thin"></div>
     <div className='flex space-x-[21rem] lg:space-x-[25rem] overflow-hidden'>
     <div className='flex justify-center items-center space-x-8 
     lg:space-x-16 animate-loop-scroll'>
@@ -12,7 +15,7 @@ const Brands = () => {
       width={150}
       height={150}
       alt='forbes'
-      className='w-[70px] md:w-[100px] lg:w-[150px] max-w-none'
+      className='w-[70px] md:w-[100px] lg:w-[150px]'
       />   
    <Image src={'/Elle.png'} 
       width={150}
@@ -45,6 +48,7 @@ const Brands = () => {
     </div> 
 <div className='flex space-x-8 lg:space-x-16 justify-center items-center 
 animate-loop-scroll aria-hidden:"true"'>
+
    <Image src={'/Forbes.png'} 
       width={150}
       height={150}
@@ -81,6 +85,7 @@ animate-loop-scroll aria-hidden:"true"'>
       
     </div> 
     </div>
+ <div className="w-full h-[1px] bg-[#000000] font-thin"></div>
   
       
     </section>

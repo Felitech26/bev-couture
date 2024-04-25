@@ -18,9 +18,10 @@ const Footer = () => {
 
   
   return (
-     <footer className="w-full h-[110vh] md:h-[110vh] relative lg:h-[105vh] xl:h-[70vh]
-      bg-[#0a0a0a] overflow-hidden pt-7 bottom-0">
-      <section className="container mx-auto overflow-hidden">
+     <footer className="w-full max-h-[100vh] md:max-h-[115vh] relative lg:max-h-[105vh] xl:max-h-[70vh]
+      bg-[#0a0a0a] overflow-hidden pt-7">
+      <section className="container mx-auto pb-[5.7rem] lg:pb-[6rem] xl:pb-[5.8rem]
+      overflow-hidden">
       <div className="flex flex-row justify-center items-center pb-[3rem]">
       <span className="w-[60px] ml-1 h-[1px] bg-[#666363] font-thin"></span>
       <Link href='/'>
@@ -232,6 +233,12 @@ const Footer = () => {
         
       </div>
       </section>
+      <div className="flex flex-col justify-end place-content-baseline">
+      <div className="w-full h-[1px] bg-[#151414] font-thin"></div>
+      <h5 className="text-[#666363] text-[15px] font-lato font-semibold text-center py-4">
+        All Rights Reserved || Bev Couture 2024</h5>
+      <div className="w-full h-[1px] bg-[#151414] bottom-0 font-thin"></div>
+      </div>
      </footer>
   )
 }

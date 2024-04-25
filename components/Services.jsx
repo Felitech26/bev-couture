@@ -19,7 +19,7 @@ const Services = () => {
 
 <div className='flex flex-col justify-center items-center leading-tight'>
   <h5 className='text-[35px] md:text-[70px] lg xl:w-[500px] font-cormomorantGaramond uppercase'>
-  A Story of Craft:
+  A Story of Craft
   </h5>
   <h5 className='text-[35px] md:text-[70px] xl:w-[500px] font-cormomorantGaramond uppercase'>
   True Unique Style
