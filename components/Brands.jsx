@@ -7,7 +7,7 @@ const Brands = () => {
    <section className='pt-3 pb-9 md:py-[5rem] overflow-hidden'>
      <h5 className='mb-5 lg::mb-7 font-cormomorantGaramond font-medium text-[20px] md:text-[30px]
       text-center'>Featured On</h5>
- <div className="w-full h-[1px] bg-[#000000] font-thin"></div>
+ <div className="w-full h-[1px] font-thin"></div>
        <div className='logos'>
       <div className='logos-slide'>
         <div className='flex flex-row justify-center items-center gap-10 lg:gap-20 mr-5 lg:mr-[3rem]'>
@@ -18,35 +18,36 @@ const Brands = () => {
         alt=''/>
       </div>
       <div className='flex justify-center'>
-        <Image src={'/InStyle.png'}
+        <Image src={'/Bbc.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
       <div className=' flex justify-center'>
-        <Image src={'/Catalyst.png'}
+        <Image src={'/Elle.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
       <div className='flex justify-center'>
-        <Image src={'/Covergirl.png'}
+        <Image src={'/Forbes.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
       <div className=' flex justify-center'>
-        <Image src={'/Vox.png'}
+        <Image src={'/Glitz.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
-      <div className='flex justify-center'>
-        <Image src={'/Zara.png'}
+      <div className=' flex justify-center'>
+        <Image src={'/Glitz.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
+     
         </div>
       </div>
       <div className='logos-slide'>
@@ -58,31 +59,31 @@ const Brands = () => {
         alt=''/>
       </div>
       <div className='flex justify-center'>
-        <Image src={'/InStyle.png'}
+        <Image src={'/Bbc.png'}
+        width={200}
+        height={180}
+        alt=''/>
+      </div>
+      <div className=' flex justify-center'>
+        <Image src={'/Elle.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
       <div className='flex justify-center'>
-        <Image src={'/Catalyst.png'}
+        <Image src={'/Forbes.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
-      <div className='flex justify-center'>
-        <Image src={'/Covergirl.png'}
+      <div className=' flex justify-center'>
+        <Image src={'/Glitz.png'}
         width={200}
         height={180}
         alt=''/>
       </div>
-      <div className='flex justify-center'>
-        <Image src={'/Vox.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className='flex justify-center'>
-        <Image src={'/Zara.png'}
+      <div className=' flex justify-center'>
+        <Image src={'/Glitz.png'}
         width={200}
         height={180}
         alt=''/>
@@ -90,7 +91,7 @@ const Brands = () => {
         </div>
       </div>
     </div>
-    <div className="w-full h-[1px] bg-[#000000] font-thin"></div>
+    <div className="w-full h-[1px] font-thin"></div>
     </section>
    
   )
