@@ -86,7 +86,7 @@ const ShopCategories = ({bev}) => {
       </div>
        </aside>
               {/* dress list */}
-       <div className="w-full xl:w-[1050px] ml-auto">
+       <div className="w-full xl:w-[1050px] xxl:w-[1600px] ml-auto">
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
        xl:grid-cols-3 gap-[30px]"> 
          {filteredDress.map((bevs) => {
