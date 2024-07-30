@@ -18,7 +18,7 @@ module.exports = {
       md: '585px',
       lg: '960px',
       xl: '1440px',
-      xxl:'2200px',
+      xxl:'2000px',
     },
     fontFamily: {
       lato: 'var(--font-lato)',
