@@ -88,7 +88,7 @@ const ShopCategories = ({bev}) => {
               {/* dress list */}
        <div className="w-full xl:w-[1050px] xxl:w-[1600px] ml-auto">
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
-       xl:grid-cols-3 gap-[30px]"> 
+       xl:grid-cols-3 xxl:grid-cols-4 gap-[30px]"> 
          {filteredDress.map((bevs) => {
           return <Bevs bevs={bevs} key={bevs.price_id} />
          })}
