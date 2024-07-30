@@ -31,7 +31,7 @@ const SignIn = () => {
       return;
     }
 
-    router.replace("http://localhost:3000/")
+    router.replace("")
    } catch (error) {
     console.log(error);
    }
