@@ -17,11 +17,12 @@ const ContactPage = () => {
 <div>
 <h5 className="text-center text-[30px] mb-10 font-light"> Contact</h5>
      
-     <div className="fixed hidden lg:inline-flex">
+     <div className="fixed hidden lg:inline-flex xxl:w-full">
      <Image src={'/africa.png'}
       width={1700}
       height={700}
       alt=""
+      className="xxl:w-full"
       />
      </div>
       
