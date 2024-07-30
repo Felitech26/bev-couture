@@ -34,10 +34,10 @@ const ShopCategories = ({bev}) => {
     items-center">
     <h5 className="font-cormomorantGaramond
     font-semibold text-[25px] mb-2">All Collection</h5>
-    <p className=" text-[#4a4b4b] lg:w-[50%]">
+    <p className=" text-[#4a4b4b] lg:w-[50%] xxl:w-[25%]">
       Get dressed effortlessly throughout the seasons with our easy take on
        the latest trends from al dresses to the hero separates you can't live without.
-     Your next favourite outfit starts here</p>
+     Your next favourite outfit starts here.</p>
     </div>
     
     <div className="flex flex-col">
