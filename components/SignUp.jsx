@@ -74,7 +74,7 @@ if (user) {
       height={500}
       priority
       alt=''
-      className='w- h-screen object-cover' />
+      className='xxl:w-[2200px] h-screen object-cover' />
       </div>
     <div className="h-screen py-[15rem] relative">
     <div className="flex justify-center">
