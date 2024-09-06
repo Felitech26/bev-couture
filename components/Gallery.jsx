@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Gallery = () => {
   return (
-    <section className="px-[2rem] py-[5rem] hidden">
+    <section className="px-[2rem] py-[5rem]">
       <div>
         <h5 className="text-[30px] mb-10 group-hover:scale-110 transition-all duration-500">
           Gallery
