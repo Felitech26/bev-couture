@@ -11,7 +11,7 @@ const Services = () => {
 
 <div className='relative flex justify-center items-center'>
 
-  <video src={'/personalise.mp4'} autoPlay loop muted
+  <video src={'/personalise.mp4'} autoPlay loop controls
   className='object-cover w-[630px] h-[750px] md:h-[650px] 
   lg:h-[600px] xl:h-[650px]'/>
 

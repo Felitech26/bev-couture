@@ -4,94 +4,40 @@ import React from 'react'
 
 const Brands = () => {
   return (
-   <section className='pt-3 pb-9 md:py-[5rem] overflow-hidden'>
-     <h5 className='mb-5 lg::mb-7 font-cormomorantGaramond font-medium text-[20px] md:text-[30px]
-      text-center'>Featured On</h5>
- <div className="w-full h-[1px] font-thin"></div>
-       <div className='logos'>
-      <div className='logos-slide'>
-        <div className='flex flex-row justify-center items-center gap-10 lg:gap-20 mr-5 lg:mr-[3rem]'>
-        <div className='flex justify-center' >
-        <Image src={'/Vogue.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className='flex justify-center'>
-        <Image src={'/Bbc.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className=' flex justify-center'>
-        <Image src={'/Elle.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className='flex justify-center'>
-        <Image src={'/Forbes.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className=' flex justify-center'>
-        <Image src={'/Glitz.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className=' flex justify-center'>
-        <Image src={'/Glitz.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-     
-        </div>
-      </div>
-      <div className='logos-slide'>
-        <div className='flex flex-row justify-center items-center gap-10 lg:gap-20'>
-        <div className='flex justify-center' >
-        <Image src={'/Vogue.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className='flex justify-center'>
-        <Image src={'/Bbc.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className=' flex justify-center'>
-        <Image src={'/Elle.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className='flex justify-center'>
-        <Image src={'/Forbes.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className=' flex justify-center'>
-        <Image src={'/Glitz.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-      <div className=' flex justify-center'>
-        <Image src={'/Glitz.png'}
-        width={200}
-        height={180}
-        alt=''/>
-      </div>
-        </div>
-      </div>
-    </div>
-    <div className="w-full h-[1px] font-thin"></div>
+   <section className='min-h-[30vh] flex justify-center items-center'>
+  <div className='wrapper flex justify-center items-center md:gap-0'>
+<div className='item item1'>
+  <img src="Vogue.png" alt="" />
+</div>
+<div className='item item2'>
+  <img src="Forbes.png" alt="" />
+</div>
+<div className='item item3'>
+  <img src="Elle.png" alt="" />
+</div>
+<div className='item item4 mb-2'>
+  <img src="Bbc.png" alt="" />
+</div>
+<div className='item item5 mb-2.5'>
+  <img src="Glitz.png" alt="" />
+</div>
+<div className='item item6'>
+  <img src="Vogue.png" alt="" />
+</div>
+<div className='item item7'>
+  <img src="Forbes.png" alt="" />
+</div>
+<div className='item item8'>
+  <img src="Elle.png" alt="" />
+</div>
+<div className='item item9'>
+  <img src="Bbc.png" alt="" />
+</div>
+<div className='item item10'>
+  <img src="Glitz.png" alt="" />
+</div>
+  </div>
+
     </section>
    
   )
