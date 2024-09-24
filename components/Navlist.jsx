@@ -15,16 +15,16 @@ const percepective = {
   initial: {
     opacity: 0,
   },
-  enter: (i) => ({
+  enter:{
     y: 0,
     opacity: 1,
    
-  }),
-  exit: (i) => ({
+  },
+  exit:{
     y: '100%',
     opacity: 0,
     
-  }),
+  },
 };
 
 
