@@ -32,18 +32,13 @@ const Nav = () => {
   },[] )
 
   return (
-    <div className={header ? " w-[100%] transition-all duration-500 lg:text-white fixed bg-[#e8e6e6] lg:bg-[#171617]" : "bg-transparent"}> 
+    <div className={header ? " w-[100%] transition-all duration-500 lg:text-white bg-[#e8e6e6] lg:bg-[#171617]" : "bg-transparent"}> 
      <div className="header">
-     <nav className="flex flex-row justify-between lg:justify-center  items-center
-   w-full py-1.5 px-4 gap-[2rem] md:gap-[11rem] lg:gap-[6rem] xl:gap-[23rem]">
-
-
-
-      <div className="lg:hidden ">
+     <div className="lg:hidden py-2 px-3">
       <Navlinks />
       </div>
-     
-
+     <nav className="hidden lg:inline-flex flex-row justify-between lg:justify-center  items-center
+   w-full py-1.5 px-4 lg:gap-[6rem] xl:gap-[23rem]">
      <div >
       <Link href='/'>
      <Image src={'/logo.svg'} 
@@ -52,7 +47,7 @@ const Nav = () => {
       alt="logo" />  
       </Link> 
        </div> 
-      <div className="hidden lg:inline-flex mr-[7rem]
+      <div className="flex mr-[7rem]
        font-lato text-[18px] font-medium flex-row gap-10">
       <Link
       href='/'>
@@ -81,11 +76,11 @@ const Nav = () => {
       </div>
       <div className="flex flex-row gap-5 font-lato lg:mr-6">
       <Link href='/signin'>
-      <RxPerson className="text-[21px] hidden lg:flex" />
+      <RxPerson className="text-[21px]" />
        </Link>
         
       
-      <ShoppingCart />
+      <ShoppingCart  />
 
       </div>
      </div>

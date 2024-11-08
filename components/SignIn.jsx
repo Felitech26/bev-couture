@@ -31,7 +31,7 @@ const SignIn = () => {
       return;
     }
 
-    router.replace("")
+    router.replace("/")
    } catch (error) {
     console.log(error);
    }

@@ -4,8 +4,8 @@ import React from 'react'
 
 const Brands = () => {
   return (
-   <section className='min-h-[30vh] flex justify-center items-center'>
-  <div className='wrapper flex justify-center items-center md:gap-0'>
+   <section className='min-h-[20vh] flex justify-center items-center'>
+  <div className='wrapper flex justify-center items-center mb-7 md:gap-0'>
 <div className='item item1'>
   <img src="Vogue.png" alt="" />
 </div>
