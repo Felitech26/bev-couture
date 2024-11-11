@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Category = () => {
   return (
-    <section className="pb-[10rem] pt-6 overflow-hidden"> 
+    <section className="w-full px-2 md:px-3 xl:px-[5rem] pb-[10rem] pt-6 md:pt-10 lg:pt-[4rem] overflow-hidden"> 
     <h5 className="mb-5 text-[30px] md:text-[40px] text-center 
     font-cormomorantGaramond
      uppercase">Shop By Categories</h5> 
@@ -17,8 +17,83 @@ const Category = () => {
      </div>
 
        
-   <div className="flex flex-col lg:flex-row gap-7 justify-center
-   items-center lg:px-1">
+  <div className='flex flex-col lg:flex-row gap-10 justify-center
+   items-center'>
+    <div className='group relative w-full h-full overflow-hidden'>
+    <div className='overflow-hidden inline-block'>
+      <img src="/continental.png" height='auto' width='auto' alt="children"  className='group-hover:scale-110
+      duration-500 transition-transform'/>
+     </div> 
+     <div className='absolute top-5 group-hover:hidden left-4'>
+      <h1 className='text-sm text-white font-semibold px-2 py-2 rounded-sm
+       bg-black bg-opacity-30'>Continental</h1>
+     </div>
+     <div className='w-full bg-black bg-opacity-40 absolute bottom-1.5 right-0 left-0 h-0
+     flex justify-center items-center  
+     overflow-hidden group-hover:h-[100%] group-hover:w-[100%] transition-all duration-500'>
+    <div className="flex flex-col justify-center items-center">
+        <h3 className="text-white font-lato text-[17px] md:text-md">CONTINENTAL VIBE</h3>
+        <Link href='/shop'>
+        <button className="bg-black mb-10 mt-5
+    px-5 py-3 border border-xl text-white border-black text-md
+    hover:bg-white hover:text-black">SHOP COLLECTION</button>
+        </Link>
+        </div>
+     
+     </div>
+    </div>
+    <div className='group relative w-full h-full overflow-hidden'>
+    <div className='overflow-hidden inline-block'>
+      <img src="/casual.png" height='auto' width='auto' alt="children"  className='group-hover:scale-110
+      duration-500 transition-transform'/>
+     </div> 
+     <div className='absolute top-5 group-hover:hidden left-4'>
+      <h1 className='text-sm text-white font-semibold px-2 py-2 rounded-sm
+       bg-black bg-opacity-30'>Casual</h1>
+     </div>
+     <div className='w-full bg-black bg-opacity-40 absolute bottom-1.5 right-0 left-0 h-0
+     flex justify-center items-center  
+     overflow-hidden group-hover:h-[100%] group-hover:w-[100%] transition-all duration-500'>
+    <div className="flex flex-col justify-center items-center">
+        <h3 className="text-white font-lato text-[17px] md:text-md">CASUAL VIBE</h3>
+        <Link href='/shop'>
+        <button className="bg-black mb-10 mt-5
+    px-5 py-3 border border-xl text-white border-black text-md
+    hover:bg-white hover:text-black">SHOP COLLECTION</button>
+        </Link>
+        </div>
+     
+     </div>
+    </div>
+    <div className='group relative w-full h-full overflow-hidden'>
+    <div className='overflow-hidden inline-block'>
+      <img src="/afri.png" height='auto' width='auto' alt="children"  className='group-hover:scale-110
+      duration-500 transition-transform'/>
+     </div> 
+     <div className='absolute top-5 group-hover:hidden left-4'>
+      <h1 className='text-sm text-white font-semibold px-2 py-2 rounded-sm
+       bg-black bg-opacity-30'>African</h1>
+     </div>
+     <div className='w-full bg-black bg-opacity-40 absolute bottom-1.5 right-0 left-0 h-0
+     flex justify-center items-center  
+     overflow-hidden group-hover:h-[100%] group-hover:w-[100%] transition-all duration-500'>
+    <div className="flex flex-col justify-center items-center">
+        <h3 className="text-white font-lato text-[17px] md:text-md">AFRICAN VIBE</h3>
+        <Link href='/shop'>
+        <button className="bg-black mb-10 mt-5
+    px-5 py-3 border border-xl text-white border-black text-md
+    hover:bg-white hover:text-black">SHOP COLLECTION</button>
+        </Link>
+        </div>
+     
+     </div>
+    </div>
+   
+      </div>
+
+       
+   <div className="flex-col lg:flex-row gap-7 justify-center
+   items-center lg:px-1 hidden">
    <div className="w-[375px] h-[460px] md:w-[500px] md:h-[600px] 
    lg:w-[350px] lg:h-[400px] xl:w-[500px] xl:h-[600px] overflow-hidden">
        <div className="relative group">

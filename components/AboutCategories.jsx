@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AboutCategories = () => {
   return (
-    <div className='max-h-[260vh] pt-[8rem] pb-[5rem]'>
+    <div className='max-h-[260vh] pt-[8rem] pb-[5rem] relative'>
       <h5 className='text-[30px] font-cormomorantGaramond
        font-normal text-center'>About Us </h5>
 
@@ -63,7 +63,7 @@ famous designers or popular trends according to the tastes of the crowd…
             
            </div>
         </div>
-         <div className='flex flex-col justify-center items-center '>
+         <div className='flex flex-col justify-center items-center relative'>
           <div className='flex justify-center items-center'>
           <video src={'./styleUp.mp4'} 
        autoPlay muted loop
