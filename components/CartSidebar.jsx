@@ -42,7 +42,7 @@ const CartSidebar = () => {
            <div className='text-center'>
            <Link href='/shop'>
       <button className="bg-black 
-    px-5 py-3 border border-xl text-white border-black text-md">SHOP COLLECTION</button>
+    px-5 py-3 border border-xl text-white text-md">SHOP COLLECTION</button>
   </Link>
 
            </div>
