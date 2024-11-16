@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const AboutCategories = () => {
   return (
-    <div className='max-h-[260vh] pt-[8rem] pb-[5rem] relative'>
+    <div className='pt-[8rem] pb-[5rem] relative'>
       <h5 className='text-[30px] font-cormomorantGaramond
        font-normal text-center'>About Us </h5>
 

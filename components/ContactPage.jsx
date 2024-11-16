@@ -12,7 +12,7 @@ const ContactPage = () => {
   return (
 
 <section>
-<div className="max-h-[380vh] md:max-h-[450vh] py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
+<div className="py-[8rem]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      -">
 
 <div>
 <h5 className="text-center text-[30px] mb-10 font-light"> Contact</h5>
@@ -97,11 +97,11 @@ const ContactPage = () => {
     </div>
     
   </div>
-  <div className="py-[4rem] md:py-[14rem] lg:py-[5rem] xl:px-[5rem]">
-    <div className="w-full xl:h-[85vh] bg-[#f1eeef] flex flex-col 
+  <div className="py-[4rem] md:py-[5rem] lg:py-[5rem] xl:px-[5rem]">
+    <div className="w-full lg:h-[55vh] xl:h-[65vh] bg-[#f1eeef] flex flex-col 
     lg:flex-row">
-      <div className="lg:w-[50%] xl:w-[40%] flex flex-col justify-start items-center
-      mt-[3rem] lg:mt-[10rem] mb-[3rem]">
+      <div className="lg:w-[40%] xl:w-[40%] flex flex-col justify-start items-center
+      mt-[3rem] lg:mt-[5rem] mb-[3rem]">
         <h5 className="font-cormomorantGaramond text-[30px]
         ">Our Store</h5>
  <h5 className="text-center text-[16px] text-[#6d6d6d] font-lato mt-3"> 
@@ -116,7 +116,7 @@ const ContactPage = () => {
 <h5  className="text-center text-[#6d6d6d] text-[16px] font-lato">Eastern Standard Time. </h5>
 
       </div>
-      <div>
+      <div className="w-full lg:w-[60%]">
         <Image src={'/store.png'}
         width={1000}
         height={700}
@@ -141,7 +141,7 @@ const ContactPage = () => {
     <form className="flex-1 flex flex-col gap-6 w-full mx-auto">
     <div className="flex flex-col lg:flex-row gap-y-9 lg:gap-x-9 ">
     <input type="text" placeholder="Name"className="border border-solid
-    py-3 px-6 w-[345px] sm:w-[500px] lg:w-[320px] outline-none border-black/50
+    py-3 px-6 w-[345px] sm:w-[500px] lg:w-[320px]  outline-none border-black/50
      text-lg placeholder:text-[#6b6a6a] placeholder:text-md"/>
     <input type="text" placeholder="Email"  className="border border-solid
     py-3 px-6 w-[345px] sm:w-[500px] lg:w-[320px] outline-none border-black/50

@@ -7,7 +7,7 @@ import Services from "@/components/Services";
 
 export default function Home () {
   return (
-    <main className="max-h-[650vh] md:max-h-[760vh] lg:max-h-[610vh] xl:max-h-[625vh]"> 
+    <main> 
     <Hero/>
      <PopularDress />
      <Services />

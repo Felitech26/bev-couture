@@ -30,7 +30,7 @@ const percepective = {
 
 const Navlist = () => {
   return (
-    <ul className='w-full h-full font-cormomorantGaramond pt-[9rem] flex flex-col gap-8 text-black text-6xl font-semibold
+    <ul className='w-full h-full font-cormomorantGaramond pt-[7rem] flex flex-col gap-8 text-black text-6xl font-semibold
     items-center uppercase'>
       {links.map((link, index) => {
         return(
